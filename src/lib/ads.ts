@@ -64,7 +64,7 @@ export const SLOT_CONFIG: Record<string, SlotConfig> = {
   },
 };
 
-const AD_AFTER_PARAGRAPH = [2, 5, 8] as const;
+const AD_AFTER_PARAGRAPH = [4, 7, 11] as const;
 
 export function injectAdsIntoArticle(html: string): ArticleSegment[] {
   const parts = html.split("</p>");

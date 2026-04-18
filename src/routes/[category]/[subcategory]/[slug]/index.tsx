@@ -160,6 +160,10 @@ export default component$(() => {
           )}
         </figure>
 
+        <div class="ad-slot my-8">
+          <AdSlot slotId="header-leaderboard" />
+        </div>
+
         {injectAdsIntoArticle(article.body).map((seg, i) =>
           seg.kind === "html" ? (
             <div key={i} class="prose" dangerouslySetInnerHTML={seg.content} />
