@@ -1,6 +1,15 @@
-import { component$ } from "@builder.io/qwik";
+import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 import { Link, useLocation } from "@builder.io/qwik-city";
 import { DarkModeToggle } from "./DarkModeToggle";
+
+function formatDateTime(d: Date): string {
+  return d.toLocaleDateString("es-ES", {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
 
 const NAV_LINKS = [
   { href: "/tecnologia/", label: "Tecnología" },
@@ -12,6 +21,15 @@ const NAV_LINKS = [
 
 export const Header = component$(() => {
   const loc = useLocation();
+  const dateStr = useSignal("");
+
+  // eslint-disable-next-line qwik/no-use-visible-task
+  useVisibleTask$(() => {
+    const update = () => (dateStr.value = formatDateTime(new Date()));
+    update();
+    const timer = setInterval(update, 60_000);
+    return () => clearInterval(timer);
+  });
 
   return (
     <header class="sticky top-0 z-50 bg-[var(--surface)]">
@@ -31,8 +49,8 @@ export const Header = component$(() => {
           <span class="text-[10px] font-semibold tracking-[0.14em] text-[var(--text-muted)] uppercase sm:hidden">
             crush.news
           </span>
-          <span class="text-[10px] font-medium tracking-wider text-[var(--text-muted)] uppercase">
-            ES
+          <span class="text-[10px] font-medium tracking-wider text-[var(--text-muted)] capitalize">
+            {dateStr.value}
           </span>
         </div>
       </div>
