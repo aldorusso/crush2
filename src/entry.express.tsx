@@ -61,6 +61,11 @@ app.use(
     maxAge: "1y",
   }),
 );
+// Service worker — must never be cached (browsers need latest version)
+app.get("/service-worker.js", (_req, res, next) => {
+  res.setHeader("Cache-Control", "no-store");
+  next();
+});
 // Other public files — 1 hour
 app.use(express.static(DIST, { maxAge: "1h" }));
 
