@@ -1,6 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 import type { Article } from "~/lib/types";
+import { SmartImage } from "~/components/SmartImage";
 
 interface Props {
   article: Article;
@@ -16,14 +17,14 @@ export const ArticleCard = component$<Props>(
       return (
         <article class="group relative overflow-hidden rounded-xl bg-[var(--surface-2)]">
           <Link href={href} class="block" tabIndex={-1} aria-hidden="true">
-            <img
+            <SmartImage
               src={article.heroImage.src}
               alt={article.heroImage.alt}
               width={article.heroImage.width}
               height={article.heroImage.height}
               loading={loading}
-              decoding="async"
               class="aspect-video w-full object-cover transition-transform duration-300 group-hover:scale-105"
+              sizes="(min-width: 1024px) 66vw, 100vw"
             />
           </Link>
           <div class="p-5">
@@ -44,14 +45,14 @@ export const ArticleCard = component$<Props>(
       return (
         <article class="group flex gap-4">
           <Link href={href} class="shrink-0" tabIndex={-1} aria-hidden="true">
-            <img
+            <SmartImage
               src={article.heroImage.src}
               alt={article.heroImage.alt}
               width={160}
               height={90}
               loading={loading}
-              decoding="async"
               class="h-[90px] w-[160px] rounded-lg object-cover transition-opacity group-hover:opacity-90"
+              sizes="160px"
             />
           </Link>
           <div class="min-w-0">
@@ -73,14 +74,14 @@ export const ArticleCard = component$<Props>(
     return (
       <article class="group flex flex-col overflow-hidden rounded-xl bg-[var(--surface-2)]">
         <Link href={href} tabIndex={-1} aria-hidden="true">
-          <img
+          <SmartImage
             src={article.heroImage.src}
             alt={article.heroImage.alt}
             width={article.heroImage.width}
             height={article.heroImage.height}
             loading={loading}
-            decoding="async"
             class="aspect-video w-full object-cover transition-transform duration-300 group-hover:scale-105"
+            sizes="(min-width: 1280px) 25vw, (min-width: 768px) 33vw, 100vw"
           />
         </Link>
         <div class="flex flex-1 flex-col p-4">

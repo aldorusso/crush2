@@ -26,6 +26,11 @@ export default component$(() => {
       </head>
       <body lang="es">
         <RouterOutlet />
+        {!isDev && (
+          <script
+            dangerouslySetInnerHTML={`if('serviceWorker' in navigator){navigator.serviceWorker.register('/service-worker.js',{scope:'/'})}`}
+          />
+        )}
       </body>
     </QwikCityProvider>
   );

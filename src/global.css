@@ -2,9 +2,28 @@
 @import "@fontsource-variable/sora/wght.css";
 @import "tailwindcss";
 
+/* System fallback fonts sized to match web fonts — prevents CLS on font-swap */
+@font-face {
+  font-family: "Inter Fallback";
+  src: local("Arial");
+  size-adjust: 107.64%;
+  ascent-override: 90%;
+  descent-override: 22%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Sora Fallback";
+  src: local("Arial");
+  size-adjust: 96.52%;
+  ascent-override: 93%;
+  descent-override: 25%;
+  line-gap-override: 0%;
+}
+
 @theme {
-  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Sora Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter Variable", "Inter Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Sora Variable", "Sora Fallback", ui-sans-serif, system-ui, sans-serif;
 
   --color-brand: #e63329;
   --color-brand-dark: #c02620;

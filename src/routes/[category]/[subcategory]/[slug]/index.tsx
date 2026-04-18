@@ -9,6 +9,7 @@ import {
 import { Breadcrumbs } from "~/components/Breadcrumbs";
 import { AuthorBox } from "~/components/AuthorBox";
 import { RelatedArticles } from "~/components/RelatedArticles";
+import { SmartImage } from "~/components/SmartImage";
 import { buildArticleSchema, buildBreadcrumbSchema, schemaToScript } from "~/lib/jsonld";
 import { buildOgArticle, buildTwitterCard, buildHreflang, buildRobotsMeta } from "~/lib/seo";
 
@@ -110,15 +111,15 @@ export default component$(() => {
         </header>
 
         <figure class="mb-8">
-          <img
+          <SmartImage
             src={article.heroImage.src}
             alt={article.heroImage.alt}
             width={article.heroImage.width}
             height={article.heroImage.height}
             loading="eager"
             fetchPriority="high"
-            decoding="async"
             class="w-full rounded-xl object-cover"
+            sizes="(min-width: 768px) 768px, 100vw"
           />
           {article.heroImage.credit && (
             <figcaption class="mt-1.5 text-xs text-[var(--text-muted)]">
