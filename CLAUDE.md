@@ -349,28 +349,37 @@ Al superar **100.000 PV/día durante 7 días consecutivos** → migrar a Google 
 
 ### 8.1 Silos iniciales
 
+Enfoque **evergreen y divulgativo** (no breaking news). Contenido atemporal con alto potencial SEO de cola larga.
+
 ```
-actualidad/
-  ├── politica
-  ├── economia
-  ├── sociedad
-  └── internacional
 tecnologia/
-  ├── ia
-  ├── gadgets
-  ├── startups
-  └── ciberseguridad
-entretenimiento/
-  ├── cine
-  ├── series
-  ├── musica
-  └── famosos
-virales/
-deportes/
-  ├── futbol
-  ├── baloncesto
-  └── motor
+  ├── apps-y-servicios/        ← Qué es X, cómo funciona Y
+  ├── inteligencia-artificial/ ← Explicadores de IA, herramientas
+  ├── gadgets/                 ← Comparativas, guías
+  └── cultura-digital/         ← Redes, tendencias online, análisis de memes
+estilo-de-vida/
+  ├── productividad/           ← Métodos, herramientas, hábitos
+  ├── hogar/                   ← Organización, decoración práctica
+  ├── relaciones/              ← Reflexivo, no terapéutico
+  └── habitos/                 ← Rutinas, desarrollo personal ligero
+ciencia/
+  ├── el-porque-de-las-cosas/  ← "Por qué el cielo es azul"
+  ├── curiosidades/            ← Datos fascinantes con fuente
+  ├── cuerpo-humano/           ← Divulgación fisiológica (non-YMYL)
+  └── historia-de-la-ciencia/  ← Narrativa histórica
+viajes/
+  ├── guias-de-ciudad/         ← "Qué ver en X en 3 días"
+  ├── experiencias/            ← Nichos, viajes temáticos
+  ├── consejos-practicos/      ← Logística atemporal
+  └── descubrimientos/         ← Lugares poco conocidos
+cultura/
+  ├── series-y-cine/           ← Análisis de fenómenos, no reviews del día
+  ├── musica/                  ← Historia, géneros, contextos
+  ├── videojuegos/             ← Lore, industria, cultura gamer
+  └── libros/                  ← Canon, recomendaciones temáticas
 ```
+
+> **Nota JSON-LD**: contenido evergreen → schema `Article` (no `NewsArticle`). Google News Publisher Center no aplica a este modelo.
 
 ### 8.2 Related articles (algoritmo)
 
