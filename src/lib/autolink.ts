@@ -80,11 +80,16 @@ export function autoLinkArticle(
         return seg;
       }
 
-      let text = seg;
+      // Collect non-overlapping matches on the ORIGINAL text. Never mutate
+      // `seg` during scanning — a previous replacement would inject <a href="…">
+      // and the next keyword could match inside that URL, producing nested <a>.
+      type Match = { start: number; end: number; entry: KeywordEntry; matched: string };
+      const matches: Match[] = [];
+      const localSlugs = new Set<string>();
 
       for (const [keyword, entry] of sorted) {
-        if (linksAdded >= MAX_LINKS) break;
-        if (usedSlugs.has(entry.slug)) continue;
+        if (linksAdded + matches.length >= MAX_LINKS) break;
+        if (usedSlugs.has(entry.slug) || localSlugs.has(entry.slug)) continue;
 
         // Word boundary that handles Spanish accented characters
         const esc = escapeRegex(keyword);
@@ -92,18 +97,32 @@ export function autoLinkArticle(
           `(?<![a-záéíóúüñA-ZÁÉÍÓÚÜÑ0-9])(${esc})(?![a-záéíóúüñA-ZÁÉÍÓÚÜÑ0-9])`,
           "i",
         );
+        const m = re.exec(seg);
+        if (!m) continue;
 
-        if (re.test(text)) {
-          text = text.replace(
-            re,
-            `<a href="${entry.href}" class="internal-link">$1</a>`,
-          );
-          usedSlugs.add(entry.slug);
-          linksAdded++;
-        }
+        const start = m.index;
+        const end = start + m[0].length;
+        // Reject overlaps with earlier (longer) matches
+        if (matches.some((x) => start < x.end && end > x.start)) continue;
+
+        matches.push({ start, end, entry, matched: m[0] });
+        localSlugs.add(entry.slug);
       }
 
-      return text;
+      if (matches.length === 0) return seg;
+
+      matches.sort((a, b) => a.start - b.start);
+      let out = "";
+      let pos = 0;
+      for (const m of matches) {
+        out += seg.slice(pos, m.start);
+        out += `<a href="${m.entry.href}" class="internal-link">${m.matched}</a>`;
+        pos = m.end;
+        usedSlugs.add(m.entry.slug);
+        linksAdded++;
+      }
+      out += seg.slice(pos);
+      return out;
     })
     .join("");
 }
