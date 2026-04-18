@@ -1,6 +1,6 @@
-const SHELL_CACHE = "crush-shell-v1";
-const IMG_CACHE = "crush-images-v1";
-const FONT_CACHE = "crush-fonts-v1";
+const SHELL_CACHE = "crush-shell-v2";
+const IMG_CACHE = "crush-images-v2";
+const FONT_CACHE = "crush-fonts-v2";
 
 const SHELL_ASSETS = ["/", "/favicon.svg", "/manifest.json"];
 
@@ -28,8 +28,8 @@ self.addEventListener("fetch", (e) => {
     return;
   }
 
-  // Images — stale-while-revalidate
-  if (request.destination === "image") {
+  // Images — stale-while-revalidate (same-origin only)
+  if (request.destination === "image" && url.hostname === self.location.hostname) {
     e.respondWith(staleWhileRevalidate(IMG_CACHE, request));
     return;
   }
