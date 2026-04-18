@@ -1,4 +1,4 @@
-import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
+import { component$, useSignal, useVisibleTask$, $ } from "@builder.io/qwik";
 import { Link, useLocation } from "@builder.io/qwik-city";
 import { DarkModeToggle } from "./DarkModeToggle";
 
@@ -67,6 +67,8 @@ const NAV_LINKS = [
 export const Header = component$(() => {
   const loc = useLocation();
   const dateStr = useSignal("");
+  const menuOpen = useSignal(false);
+  const openCategory = useSignal<string | null>(null);
 
   // eslint-disable-next-line qwik/no-use-visible-task
   useVisibleTask$(() => {
@@ -74,6 +76,17 @@ export const Header = component$(() => {
     update();
     const timer = setInterval(update, 60_000);
     return () => clearInterval(timer);
+  });
+
+  // eslint-disable-next-line qwik/no-use-visible-task
+  useVisibleTask$(({ track }) => {
+    track(() => menuOpen.value);
+    document.body.style.overflow = menuOpen.value ? "hidden" : "";
+  });
+
+  const closeMenu = $(() => {
+    menuOpen.value = false;
+    openCategory.value = null;
   });
 
   return (
@@ -85,7 +98,7 @@ export const Header = component$(() => {
         Saltar al contenido
       </a>
 
-      {/* Top strip — tagline */}
+      {/* Top strip */}
       <div class="border-b border-[var(--border)] bg-[var(--surface-2)]">
         <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-1.5">
           <span class="hidden text-[10px] font-semibold tracking-[0.14em] text-[var(--text-muted)] uppercase sm:block">
@@ -100,13 +113,14 @@ export const Header = component$(() => {
         </div>
       </div>
 
-      {/* Main header — logo + actions, red bottom border */}
+      {/* Main header */}
       <div class="border-b-2 border-[var(--color-brand)]">
         <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
           <Link
             href="/"
             class="font-display font-800 text-2xl leading-none tracking-tight"
             aria-label="crush.news — inicio"
+            onClick$={closeMenu}
           >
             <span class="text-[var(--color-brand)]">crush</span>
             <span class="text-[var(--text)]">.news</span>
@@ -143,7 +157,6 @@ export const Header = component$(() => {
                         />
                       </svg>
                     </Link>
-                    {/* Dropdown */}
                     <ul class="pointer-events-none absolute top-full left-0 z-50 min-w-[180px] rounded-lg border border-[var(--border)] bg-[var(--surface)] py-1 opacity-0 shadow-lg transition-opacity duration-150 group-hover:pointer-events-auto group-hover:opacity-100">
                       {link.subs.map((sub) => (
                         <li key={sub.href}>
@@ -162,6 +175,7 @@ export const Header = component$(() => {
             </ul>
           </nav>
 
+          {/* Right actions */}
           <div class="flex items-center gap-2">
             <Link
               href="/buscar/"
@@ -185,33 +199,178 @@ export const Header = component$(() => {
               </svg>
             </Link>
             <DarkModeToggle />
+
+            {/* Hamburger — mobile only */}
+            <button
+              class="flex h-9 w-9 flex-col items-center justify-center gap-1.5 rounded-full transition-colors hover:bg-[var(--surface-3)] md:hidden"
+              aria-label={menuOpen.value ? "Cerrar menú" : "Abrir menú"}
+              aria-expanded={menuOpen.value}
+              aria-controls="mobile-menu"
+              onClick$={() => {
+                menuOpen.value = !menuOpen.value;
+                if (!menuOpen.value) openCategory.value = null;
+              }}
+            >
+              <span
+                class={[
+                  "h-0.5 w-5 bg-current transition-all duration-300",
+                  menuOpen.value ? "translate-y-2 rotate-45" : "",
+                ].join(" ")}
+              />
+              <span
+                class={[
+                  "h-0.5 w-5 bg-current transition-all duration-300",
+                  menuOpen.value ? "opacity-0" : "",
+                ].join(" ")}
+              />
+              <span
+                class={[
+                  "h-0.5 w-5 bg-current transition-all duration-300",
+                  menuOpen.value ? "-translate-y-2 -rotate-45" : "",
+                ].join(" ")}
+              />
+            </button>
           </div>
         </div>
       </div>
 
-      {/* Mobile nav */}
-      <div class="border-b border-[var(--border)] md:hidden">
-        <nav aria-label="Navegación principal móvil">
-          <ul class="flex gap-1 overflow-x-auto px-4 py-2">
+      {/* Mobile menu overlay */}
+      {menuOpen.value && (
+        <div
+          class="fixed inset-0 z-40 bg-black/50 md:hidden"
+          aria-hidden="true"
+          onClick$={closeMenu}
+        />
+      )}
+
+      {/* Mobile menu drawer */}
+      <div
+        id="mobile-menu"
+        role="dialog"
+        aria-label="Menú de navegación"
+        class={[
+          "fixed top-0 left-0 z-50 h-full w-72 bg-[var(--surface)] shadow-2xl transition-transform duration-300 ease-in-out md:hidden",
+          menuOpen.value ? "translate-x-0" : "-translate-x-full",
+        ].join(" ")}
+      >
+        {/* Drawer header */}
+        <div class="flex items-center justify-between border-b border-[var(--border)] px-5 py-4">
+          <Link href="/" class="font-display font-800 text-xl leading-none" onClick$={closeMenu}>
+            <span class="text-[var(--color-brand)]">crush</span>
+            <span class="text-[var(--text)]">.news</span>
+          </Link>
+          <button
+            class="flex h-8 w-8 items-center justify-center rounded-full text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--text)]"
+            aria-label="Cerrar menú"
+            onClick$={closeMenu}
+          >
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <path
+                d="M2 2l14 14M16 2L2 16"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </button>
+        </div>
+
+        {/* Drawer nav */}
+        <nav aria-label="Navegación móvil" class="h-[calc(100%-65px)] overflow-y-auto px-2 py-3">
+          <ul>
             {NAV_LINKS.map((link) => {
               const active = loc.url.pathname.startsWith(link.href);
+              const isOpen = openCategory.value === link.href;
               return (
-                <li key={link.href} class="shrink-0">
-                  <Link
-                    href={link.href}
-                    class={[
-                      "block px-3 py-1.5 text-sm font-medium whitespace-nowrap transition-colors",
-                      active
-                        ? "font-semibold text-[var(--color-brand)]"
-                        : "text-[var(--text-muted)] hover:text-[var(--text)]",
-                    ].join(" ")}
-                  >
-                    {link.label}
-                  </Link>
+                <li key={link.href}>
+                  {/* Category row */}
+                  <div class="flex items-center">
+                    <Link
+                      href={link.href}
+                      class={[
+                        "flex-1 rounded-lg px-4 py-3 text-sm font-semibold transition-colors",
+                        active
+                          ? "text-[var(--color-brand)]"
+                          : "text-[var(--text)] hover:bg-[var(--surface-2)]",
+                      ].join(" ")}
+                      onClick$={closeMenu}
+                    >
+                      {link.label}
+                    </Link>
+                    <button
+                      class="flex h-10 w-10 items-center justify-center rounded-lg text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-2)]"
+                      aria-label={isOpen ? `Cerrar ${link.label}` : `Abrir ${link.label}`}
+                      aria-expanded={isOpen}
+                      onClick$={() => {
+                        openCategory.value = isOpen ? null : link.href;
+                      }}
+                    >
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        aria-hidden="true"
+                        class={[
+                          "transition-transform duration-200",
+                          isOpen ? "rotate-180" : "",
+                        ].join(" ")}
+                      >
+                        <path
+                          d="M2 4l5 6 5-6"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          fill="none"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+
+                  {/* Subcategories accordion */}
+                  {isOpen && (
+                    <ul class="mb-1 ml-4 border-l border-[var(--border)] pl-3">
+                      {link.subs.map((sub) => (
+                        <li key={sub.href}>
+                          <Link
+                            href={sub.href}
+                            class="block rounded-lg px-3 py-2.5 text-sm text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--color-brand)]"
+                            onClick$={closeMenu}
+                          >
+                            {sub.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </li>
               );
             })}
           </ul>
+
+          {/* Buscar */}
+          <div class="mt-3 border-t border-[var(--border)] pt-3">
+            <Link
+              href="/buscar/"
+              class="flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-medium text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--text)]"
+              onClick$={closeMenu}
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                aria-hidden="true"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <path d="m21 21-4.3-4.3" />
+              </svg>
+              Buscar
+            </Link>
+          </div>
         </nav>
       </div>
     </header>
