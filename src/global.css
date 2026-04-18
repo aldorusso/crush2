@@ -147,6 +147,18 @@ img {
   font-weight: 600;
 }
 
+.internal-link {
+  color: var(--color-brand);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 3px;
+  font-weight: 500;
+  transition: text-decoration-style 0.15s;
+}
+.internal-link:hover {
+  text-decoration-style: solid;
+}
+
 /* ── Editorial section headings ──────────────────────────── */
 
 .section-heading-label {

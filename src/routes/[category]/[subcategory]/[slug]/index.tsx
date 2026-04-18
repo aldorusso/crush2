@@ -5,7 +5,9 @@ import {
   getAuthorBySlug,
   getRelatedArticles,
   getCategoryBySlug,
+  getContentIndex,
 } from "~/lib/content";
+import { autoLinkArticle } from "~/lib/autolink";
 import { Breadcrumbs } from "~/components/Breadcrumbs";
 import { AuthorBox } from "~/components/AuthorBox";
 import { RelatedArticles } from "~/components/RelatedArticles";
@@ -31,8 +33,10 @@ export const useArticleData = routeLoader$(({ params, status }) => {
   const related = getRelatedArticles(article, 6);
   const category = getCategoryBySlug(article.category);
   const subcategory = category?.subcategories.find((s) => s.slug === article.subcategory);
+  const { articles } = getContentIndex();
+  const linkedBody = autoLinkArticle(article.body, article.slug, article.category, articles);
 
-  return { article, author, related, category, subcategory };
+  return { article: { ...article, body: linkedBody }, author, related, category, subcategory };
 });
 
 export default component$(() => {
