@@ -23,30 +23,50 @@ featured: false
 breaking: false
 ---
 
-Las Azores: el archipiélago portugués que parece sacado de otra dimensión
+## En el medio del Atlántico, donde el fondo del océano emerge
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Las Azores son 9 islas volcánicas en el Atlántico Norte, a 1.500 km de Lisboa. Geológicamente son el mismo sistema de puntos calientes que formó Hawai. Pero están en el Atlántico europeo.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+El resultado: paisajes de ciencia ficción. Lagos en cráteres de volcanes extintos. Geiseres que surgen del suelo en la orilla del mar. Ballenas todo el año. Caminatas entre nubes en cumbre de montañas que estuvieron bajo el océano hace miles de años.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Y casi nadie en comparación con Canarias o Madeira.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+## La isla principal: São Miguel
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+São Miguel tiene el mayor aeropuerto internacional y es donde la mayoría de turistas comienzan (y muchos se quedan).
 
-## Más sobre este tema
+**Las Sete Cidades**: un lago doble (un ojo azul, un ojo verde) dentro de un cráter volcánico enorme. El color diferencial se debe a la composición del fondo y el ángulo de la luz. El mirador más famoso es el de Boca do Inferno. Si hay niebla, espera. Aparece y desaparece en 20 minutos.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Furnas**: un pueblo dentro de un cráter volcánico activo. El suelo literalmente hierve. Hay pozas de barro sulfuroso burbujeando al lado de casas habitadas. En el lago de Furnas, los restaurantes entierran ollas de barro en el suelo volcánico a las 7 am. A las 14h las desentierran: adentro hay cozido das Furnas (guiso de carne y vegetales cocinado por calor geotérmico). Es extraordinario.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+**Ribeira Grande y Vila Franca do Campo**: ciudades costeras con piscinas naturales de lava (pozas en roca volcánica junto al mar). Aguas cristalinas, sin arena, sin turistas masificados.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+## Observación de cetáceos
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Las Azores están en la ruta migratoria de 24 especies de cetáceos. Ballenas azules, cachalotes, delfines comunes, orcas en temporada.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+Los barcos de avistamiento salen desde Ponta Delgada, Faial y Pico. La tasa de éxito en temporada (abril-octubre) es de 90%+ porque tienen vigías en tierra con binoculares que localizan los animales antes de que zarpe el barco.
 
-## Conclusión
+Ver un cachalote de cerca (18 metros, bucea hasta 2km de profundidad) en estado salvaje es una experiencia que no tiene equivalente en Europa.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## La isla del vino: Pico
+
+La Isla de Pico tiene una denominación de origen protegida para su vino de Verdelho. Los viñedos están construidos en un laberinto de muros de basalto negro que se extiende hasta el océano. Se llaman "currais." La UNESCO los declaró Patrimonio de la Humanidad.
+
+El vino es seco, mineral, con acidez alta. Exactamente lo que esperas de uvas cultivadas en lava volcánica frente al Atlántico.
+
+## Cuándo ir
+
+**Mayo-septiembre**: mejor tiempo, más excursiones disponibles, más vuelos directos desde España.
+
+**Primavera (abril-mayo)**: flores de hortensias azules cubren los bordes de las carreteras. Las Azores son conocidas como "la isla de las hortensias."
+
+**Evitar**: noviembre-febrero si buscas sol garantizado. Llueve frecuentemente. Pero si te gusta el drama atmosférico y la soledad, es fascinante.
+
+## La logística
+
+Vuelos directos desde Madrid, Lisboa, Frankfurt, Londres. Precio asequible en temporada media.
+
+Para explorar bien, necesitas coche. La infraestructura de carreteras es buena.
+
+Entre islas: vuelos inter-isla o ferry (más lento pero espectacular).

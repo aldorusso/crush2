@@ -23,24 +23,68 @@ featured: false
 breaking: false
 ---
 
-Por qué bostezamos y por qué es contagioso
+## El misterio que los científicos no terminan de resolver
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Si estás leyendo esto en una reunión larga o después de almorzar, probablemente bostezaste en los últimos 5 minutos. Ahora que mencioné el bostezo, quizás bostezaste de nuevo.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+¿Por qué?
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+La respuesta corta: no lo sabemos del todo. El bostezo es uno de los comportamientos más estudiados, más comunes y menos comprendidos de la biología humana.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+## Lo que el bostezo hace al cuerpo
 
-## Más sobre este tema
+Un bostezo completo dura entre 4 y 7 segundos. Durante ese tiempo:
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+- La mandíbula se abre al máximo.
+- Los pulmones se expanden completamente.
+- Los músculos del cuello y la cara se estiran.
+- Los oídos se despresarizan (por eso oyes diferente justo después).
+- El flujo de sangre hacia la cara aumenta.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+El efecto neto: el cerebro recibe más oxígeno (aunque esta teoría es debatida), y la temperatura cerebral **desciende** ligeramente.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Esta última parte es la más interesante.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+## La teoría de la refrigeración cerebral
 
-## Conclusión
+Andrew Gallup (Princeton) tiene la teoría más aceptada actualmente: el bostezo enfría el cerebro.
+
+El cerebro opera mejor dentro de una temperatura óptima estrecha. Cuando la temperatura sube (cansancio, activación prolongada, transición del sueño-vigilia), el cuerpo busca mecanismos de enfriamiento.
+
+Un bostezo expande los senos nasales, permite entrada de aire frío, y aumenta el flujo de sangre que disipa calor.
+
+Evidencia que apoya esto:
+
+- Bostezamos más cuando hace calor (necesita más enfriamiento).
+- Bostezamos en transiciones sueño-vigilia (momentos de cambio de temperatura cerebral).
+- Bostezamos cuando estamos aburridos (el cerebro baja actividad, temperatura cambia).
+
+## Por qué es contagioso
+
+Este es el misterio genuino. Ver a alguien bostezar, escuchar sobre bostezos, o incluso leer la palabra "bostezo" desencadena el reflejo en muchas personas.
+
+¿Por qué?
+
+**Teoría de la empatía**: El bostezo contagioso está correlacionado con empatía. Estudios muestran que los niños con espectro autista (que tienen menores capacidades empáticas) son menos susceptibles al bostezo contagioso. Personas con alta empatía bostezan con más facilidad al ver a otros.
+
+Esto sugiere que el bostezo contagioso es un **mecanismo social de sincronización**: si el grupo está cansado/necesita enfriar el cerebro, todos bostezamos juntos. Coordinación colectiva de estado mental.
+
+**Teoría evolutiva**: En grupos de primates, el bostezo sincronizado señalaba transiciones (hora de dormir, hora de marcharse). Era comunicación de estado.
+
+¿Cuál es la verdad? Probablemente ambas operan juntas.
+
+## Los que no se contagian
+
+Aproximadamente el 40-60% de los adultos son susceptibles al bostezo contagioso. El resto simplemente no.
+
+Los bebés y niños muy pequeños no son contagiados. El sistema empático aún no está desarrollado.
+
+Los psicópatas (literalmente, personas con baja empatía clínica) tampoco son contagiados fácilmente.
+
+## La conclusión más honesta
+
+El bostezo existe, probablemente, para regular la temperatura del cerebro en momentos de transición (sueño, aburrimiento, cambio de estado).
+
+El bostezo contagioso existe, probablemente, para sincronizar el estado del grupo. Somos animales sociales; si todos bostezamos juntos, todos descansamos juntos.
+
+¿Y si estás bostezando mientras lees esto? No te preocupes. Tu cerebro solo está siendo biológicamente honesto.

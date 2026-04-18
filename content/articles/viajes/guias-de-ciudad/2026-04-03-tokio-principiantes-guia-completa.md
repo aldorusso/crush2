@@ -23,30 +23,74 @@ featured: false
 breaking: false
 ---
 
-Tokio para principiantes: todo lo que nadie te cuenta antes de ir
+## La mentira del "Tokio es difícil"
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Tokio tiene fama de destino complicado. Alphabet desconocido, idioma sin raíces latinas, millones de personas.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Realidad: Tokio es uno de los destinos más fáciles del mundo. El transporte público es el mejor del planeta. Las señales están en inglés. Los japoneses son extremadamente amables.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Lo que nadie te dice: el único obstáculo real es **el primer día**. Después de eso, Tokio te lleva.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+## El transporte (la clave de todo)
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+La red de metro de Tokio es enorme pero intuitiva. Hay dos sistemas que se solapan:
 
-## Más sobre este tema
+**Tokyo Metro y Toei**: Son privados. Puedes comprar una Suica Card (tarjeta prepago) en cualquier máquina de la estación. La añades al iPhone o Android en Japan, o compras la física. Funciona en metro, autobús, tren, y la puedes usar para comprar en tiendas 7-Eleven.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**JR Pass** (para turistas): Si vas a salir de Tokio (Kioto, Osaka, etc.), el JR Pass cubre el Shinkansen. Si solo estás en Tokio, no lo necesitas.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Regla de oro: **introduce el destino en Google Maps**. Te dice qué tren, qué andén, cuándo llega, cuántos minutos a pie al salir. No necesitas saber japonés. Solo necesitas seguir instrucciones en pantalla.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+## Lo que comer (y cómo pagarlo)
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+**Convini (konbinis)**: 7-Eleven, FamilyMart y Lawson son tiendas de conveniencia que sirven comida caliente, fría, preparada, de calidad sorprendente. Onigiri (bolas de arroz con relleno): 120-180¥. Melon pan: 100¥. Una comida completa: 500-700¥.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+Los konbinis son tu base de operaciones para el desayuno y comidas rápidas.
 
-## Conclusión
+**Ramen**: Busca una fila. Si un ramen tiene fila a las 11:30 am, es bueno. Tokio tiene estilos distintos: Shoyu (soja), Miso, Tonkotsu (cerdo), Shio (sal). Pide "osusume" (recomendación) y el chef elegirá. Precio: 1.000-1.500¥.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Sushi de conveyor belt (kaiten-zushi)**: Sashimi y sushi en platos giratorios. Cada plato 100-500¥ dependiendo del color. Come lo que pase. Ideal para principiantes.
+
+**Izakayas** (bares de comida): para cenas. Cerveza, sake, yakitori, edamame. Grupos de trabajadores. Ruidosos. Perfectos.
+
+**Pagos**: Lleva efectivo. Muchos lugares pequeños no aceptan tarjeta. ATMs en 7-Eleven, FamilyMart y oficinas de correos aceptan tarjetas internacionales.
+
+## Etiqueta básica que necesitas saber
+
+Solo unos pocos:
+
+1. **No comas en la calle** mientras caminas. En el andén de trenes, en un banco del parque: ok. Caminando: descortés.
+2. **No hables por teléfono** en el metro. El silencio en el transporte es norma.
+3. **Separa la basura** en cualquier punto de reciclaje: burnable, plastic, can.
+4. **Quítate los zapatos** si el restaurante tiene piso elevado (lo verás claramente).
+5. **Propinas**: nunca. Es ofensivo. El servicio ya está incluido en el precio.
+
+## Los barrios que merece ver
+
+**Shibuya**: El cruce peatonal más famoso del mundo. Pantallas gigantes. Multitudes. Espectáculo. Mejor a las 8–9 pm.
+
+**Shimokitazawa**: Bares pequeños, ropa vintage, músicos locales. Tokio sin turistas. Ir de tarde.
+
+**Yanaka**: Barrio histórico que sobrevivió la guerra. Templos, cementerio, tiendas antiguas. El Tokio de 1940. Ir por la mañana.
+
+**Akihabara**: Electrónica, anime, cultura otaku. Ruidoso, brillante, diferente. No necesitas ser fan. Es interesante de observar.
+
+**Shinjuku de noche**: Kabukicho, Omoide Yokocho (el callejón de los izakayas). Luces de neón, humo de yakitori, salarymans borrachos. Auténtico.
+
+## El presupuesto real
+
+**Alojamiento**: 3.000-8.000¥/noche para hostal o cápsula decente. 10.000-20.000¥ para hotel business.
+
+**Comida**: 1.500-3.000¥/día si usas konbinis y ramen. 5.000-8.000¥ si comes en restaurantes medianos.
+
+**Transporte**: 500-1.000¥/día en metro.
+
+**Total diario**: 5.000-12.000¥ (30-75€). Tokio es más barato de lo que parece si evitas los restaurantes de lujo.
+
+## Lo que nadie te dice
+
+Tokio es grande pero manejable porque está dividida en "ciudades" temáticas dentro de la ciudad. Cada barrio tiene su identidad.
+
+La gente que dice "Tokio me abrumó" no usó Google Maps. Eso es todo.
+
+Llega con la Suica Card cargada, un hotel en Shibuya o Shinjuku (nodos de metro), y dos días sin agenda fija. El resto se descubre solo.

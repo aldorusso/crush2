@@ -23,30 +23,56 @@ featured: false
 breaking: false
 ---
 
-Ribeira Sacra: la Toscana gallega que nadie conoce todavía
+## El lugar donde el río excavó la tierra durante millones de años
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+El río Sil no es el Sil de los mapas planos. Es un cañón. Paredes de piedra de 500 metros que caen verticalmente al agua. Viñedos en terrazas que los romanos cultivaron y que familias gallegas mantienen hoy con las manos, porque ninguna máquina puede llegar ahí.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Esta es la Ribeira Sacra. Una de las zonas vinícolas más espectaculares del mundo, casi desconocida fuera de España.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+## Por qué no la conoce nadie (todavía)
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+El Ribeiro y el Albariño son los vinos gallegos famosos internacionalmente. La Ribeira Sacra tiene una producción pequeña, cara de hacer (todo manual en terrazas verticales), y hasta hace poco, poca presencia en mercados internacionales.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+Resultado: una región que produce vinos extraordinarios (Mencía, principalmente) que se consume mayormente en España, con turismo escaso y genuino.
 
-## Más sobre este tema
+Esto cambia. En los últimos 5 años, la Ribeira Sacra apareció en los rankings de Wine Spectator. Los precios están subiendo. El turismo empieza a llegar.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+La ventana para visitarla sin multitudes es ahora.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+## El paisaje del cañón
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Los Cañones del Sil son el punto central de la experiencia. Puedes verlos:
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+**Desde el barco**: hay cruceros turísticos desde O Barco de Valdeorras o Ourense (duran 2-3 horas). El cañón visto desde el agua es diferente: las paredes te rodean, la escala es imposible de procesar.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+**Desde los miradores**: Mirador de Cabezoás, Mirador de Souto Chao, Mirador da Pousa. Carreteras pequeñas, aparcamiento al borde de un precipicio, y el cañón bajo tus pies.
 
-## Conclusión
+**En kayak**: hay empresas locales que ofrecen rutas de kayak por el cañón. Tardan de medio día a un día completo.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Los monasterios
+
+El nombre "Sacra" viene de los monasterios. Durante la Edad Media, la zona estaba salpicada de conventos y monasterios benedictinos y cistercienses. Muchos ruinosos, algunos restaurados.
+
+**Monasterio de Santo Estevo de Ribas de Sil**: ahora parador nacional. El edificio más impresionante de la zona. Aunque no te alojes, entra a ver el claustro.
+
+**Monasterio de San Pedro de Rocas**: semiruinoso, integrado en la roca. De los más antiguos de Galicia (siglo VI). La magia de un lugar que casi nadie visita.
+
+**Santa Cristina de Ribas de Sil**: acceso a pie o en coche por carretera forestal. En primavera, los alrededores son espectaculares.
+
+## Los vinos
+
+El vino más característico: **Mencía**. Tinto, ligero, afrutado. Similar a un Pinot Noir pero con más mineral (por los suelos pizarrosos).
+
+Productores para conocer: Dominio do Bibei, Guímaro, Descendientes de J. Palacios (el que puso la zona en el mapa internacional con su "Corullón").
+
+La experiencia completa: compra una botella en una bodega local, siéntate en una terraza con vistas al cañón, come pulpo a feira o empanada de bacalao.
+
+## Cómo ir y cuándo
+
+**Cómo**: es zona rural. Necesitas coche. El aeropuerto más cercano es Santiago o Ourense (tren AVE). Desde Ourense son 30-45 minutos en coche.
+
+**Cuándo**: otoño (octubre-noviembre) es la época de vendimia. Los colores del viñedo en terrazas cambian. Espectacular. También hay menos gente y los vinos nuevos están disponibles.
+
+La primavera tiene verdor intenso. El verano es agradable pero más concurrido.
+
+**No vayas**: enero-febrero si buscas terrazas abiertas (mucho cierra en invierno).
