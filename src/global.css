@@ -158,6 +158,117 @@ img {
   text-decoration-style: solid;
 }
 
+/* ── Sticky masthead shrink on scroll ─────────────────────── */
+
+.masthead-row {
+  transition: padding 260ms ease;
+}
+
+.masthead-logo {
+  display: inline-block;
+  font-size: clamp(1.75rem, 5vw, 3.25rem);
+  transition:
+    font-size 260ms ease,
+    letter-spacing 260ms ease;
+}
+
+.masthead-date {
+  max-height: 2.25rem;
+  overflow: hidden;
+  transition:
+    max-height 260ms ease,
+    opacity 220ms ease,
+    margin-top 260ms ease;
+}
+
+.is-stuck .masthead-row {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.is-stuck .masthead-logo {
+  font-size: clamp(1.125rem, 2.2vw, 1.5rem);
+}
+
+.is-stuck .masthead-date {
+  max-height: 0;
+  opacity: 0;
+  margin-top: 0;
+}
+
+/* Corner clusters keep their natural vertical centering in both states.
+   The masthead shrink only changes padding + logo size. */
+
+@media (prefers-reduced-motion: reduce) {
+  .masthead-row,
+  .masthead-logo,
+  .masthead-date {
+    transition: none;
+  }
+}
+
+/* ── Breaking news ticker ─────────────────────────────────── */
+
+@keyframes ticker-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.ticker-headline {
+  animation: ticker-slide-in 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker-headline {
+    animation: none;
+  }
+}
+
+/* ── Fullscreen menu overlay animations ───────────────────── */
+
+@keyframes menu-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes menu-pop {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.menu-overlay {
+  animation: menu-fade 180ms ease-out both;
+}
+
+.menu-item {
+  animation: menu-pop 380ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: calc(80ms + var(--i, 0) * 60ms);
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .menu-overlay,
+  .menu-item {
+    animation: none;
+  }
+}
+
 /* ── Editorial section headings ──────────────────────────── */
 
 .section-heading-label {

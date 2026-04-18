@@ -1,5 +1,5 @@
 import { component$, useSignal, useVisibleTask$, $ } from "@builder.io/qwik";
-import { Link, useLocation } from "@builder.io/qwik-city";
+import { Link } from "@builder.io/qwik-city";
 import { DarkModeToggle } from "./DarkModeToggle";
 
 function formatDateTime(d: Date): string {
@@ -65,7 +65,6 @@ const NAV_LINKS = [
 ];
 
 export const Header = component$(() => {
-  const loc = useLocation();
   const dateStr = useSignal("");
   const menuOpen = useSignal(false);
   const openCategory = useSignal<string | null>(null);
@@ -79,9 +78,19 @@ export const Header = component$(() => {
   });
 
   // eslint-disable-next-line qwik/no-use-visible-task
-  useVisibleTask$(({ track }) => {
+  useVisibleTask$(({ track, cleanup }) => {
     track(() => menuOpen.value);
     document.body.style.overflow = menuOpen.value ? "hidden" : "";
+
+    if (!menuOpen.value) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        menuOpen.value = false;
+        openCategory.value = null;
+      }
+    };
+    document.addEventListener("keydown", onKey);
+    cleanup(() => document.removeEventListener("keydown", onKey));
   });
 
   const closeMenu = $(() => {
@@ -90,7 +99,7 @@ export const Header = component$(() => {
   });
 
   return (
-    <header class="sticky top-0 z-50 bg-[var(--surface)]">
+    <header class="bg-[var(--surface)]">
       <a
         href="#main-content"
         class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:rounded focus:bg-[var(--color-brand)] focus:px-4 focus:py-2 focus:text-white"
@@ -98,115 +107,42 @@ export const Header = component$(() => {
         Saltar al contenido
       </a>
 
-      {/* Top strip */}
-      <div class="border-b border-[var(--border)] bg-[var(--surface-2)]">
-        <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-1.5">
-          <span class="hidden text-[10px] font-semibold tracking-[0.14em] text-[var(--text-muted)] uppercase sm:block">
-            Tecnología · Ciencia · Cultura · Viajes · Estilo de vida
-          </span>
-          <span class="text-[10px] font-semibold tracking-[0.14em] text-[var(--text-muted)] uppercase sm:hidden">
-            crush.news
-          </span>
-          <span class="text-[10px] font-medium tracking-wider text-[var(--text-muted)] capitalize">
-            {dateStr.value}
-          </span>
-        </div>
-      </div>
-
-      {/* Main header */}
-      <div class="border-b-2 border-[var(--color-brand)]">
-        <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
+      {/* Editorial masthead — centered, NYT/Economist style */}
+      <div class="border-b-2 border-[var(--color-brand)] bg-[var(--surface)]">
+        {/* Row 1 — masthead with corner actions */}
+        <div class="masthead-row relative mx-auto max-w-7xl px-4 py-5 text-center md:py-7">
+          {/* Search — left corner */}
           <Link
-            href="/"
-            class="font-display text-2xl leading-none tracking-tight"
-            style="font-weight: 900"
-            aria-label="crush.news — inicio"
-            onClick$={closeMenu}
+            href="/buscar/"
+            aria-label="Buscar"
+            class="absolute top-1/2 left-2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full transition-colors hover:bg-[var(--surface-3)] md:left-4"
           >
-            <span class="text-[var(--color-brand)]">crush</span>
-            <span class="text-[var(--text)]">.news</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.3-4.3" />
+            </svg>
           </Link>
 
-          {/* Desktop nav */}
-          <nav aria-label="Navegación principal" class="hidden md:block">
-            <ul class="flex">
-              {NAV_LINKS.map((link) => {
-                const active = loc.url.pathname.startsWith(link.href);
-                return (
-                  <li key={link.href} class="group relative">
-                    <Link
-                      href={link.href}
-                      class={[
-                        "nav-link inline-flex items-center gap-1",
-                        active ? "active" : "",
-                      ].join(" ")}
-                    >
-                      {link.label}
-                      <svg
-                        width="10"
-                        height="10"
-                        viewBox="0 0 10 10"
-                        aria-hidden="true"
-                        class="opacity-50 transition-transform group-hover:rotate-180"
-                      >
-                        <path
-                          d="M1 3l4 4 4-4"
-                          stroke="currentColor"
-                          stroke-width="1.5"
-                          fill="none"
-                          stroke-linecap="round"
-                        />
-                      </svg>
-                    </Link>
-                    <ul class="pointer-events-none absolute top-full left-0 z-50 min-w-[180px] rounded-lg border border-[var(--border)] bg-[var(--surface)] py-1 opacity-0 shadow-lg transition-opacity duration-150 group-hover:pointer-events-auto group-hover:opacity-100">
-                      {link.subs.map((sub) => (
-                        <li key={sub.href}>
-                          <Link
-                            href={sub.href}
-                            class="block px-4 py-2 text-sm whitespace-nowrap text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--color-brand-text)]"
-                          >
-                            {sub.label}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </li>
-                );
-              })}
-            </ul>
-          </nav>
-
-          {/* Right actions */}
-          <div class="flex items-center gap-2">
-            <Link
-              href="/buscar/"
-              aria-label="Buscar"
-              class="flex h-9 w-9 items-center justify-center rounded-full transition-colors hover:bg-[var(--surface-3)]"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                aria-hidden="true"
-              >
-                <circle cx="11" cy="11" r="8" />
-                <path d="m21 21-4.3-4.3" />
-              </svg>
-            </Link>
+          {/* Right corner — dark mode + hamburger (all breakpoints) */}
+          <div class="absolute top-1/2 right-2 flex -translate-y-1/2 items-center gap-1 md:right-4 md:gap-2">
             <DarkModeToggle />
 
-            {/* Hamburger — mobile only */}
             <button
-              class="flex h-9 w-9 flex-col items-center justify-center gap-1.5 rounded-full transition-colors hover:bg-[var(--surface-3)] md:hidden"
+              class="flex h-9 w-9 flex-col items-center justify-center gap-1.5 rounded-full transition-colors hover:bg-[var(--surface-3)]"
               aria-label={menuOpen.value ? "Cerrar menú" : "Abrir menú"}
               aria-expanded={menuOpen.value}
-              aria-controls="mobile-menu"
+              aria-controls="fullscreen-menu"
               onClick$={() => {
                 menuOpen.value = !menuOpen.value;
                 if (!menuOpen.value) openCategory.value = null;
@@ -232,153 +168,99 @@ export const Header = component$(() => {
               />
             </button>
           </div>
-        </div>
-      </div>
 
-      {/* Mobile menu overlay */}
-      {menuOpen.value && (
-        <div
-          class="fixed inset-0 z-40 bg-black/50 md:hidden"
-          aria-hidden="true"
-          onClick$={closeMenu}
-        />
-      )}
-
-      {/* Mobile menu drawer */}
-      <div
-        id="mobile-menu"
-        role="dialog"
-        aria-label="Menú de navegación"
-        class={[
-          "fixed top-0 left-0 z-50 h-full w-72 bg-[var(--surface)] shadow-2xl transition-transform duration-300 ease-in-out md:hidden",
-          menuOpen.value ? "translate-x-0" : "-translate-x-full",
-        ].join(" ")}
-      >
-        {/* Drawer header */}
-        <div class="flex items-center justify-between border-b border-[var(--border)] px-5 py-4">
+          {/* Centered wordmark */}
           <Link
             href="/"
-            class="font-display text-xl leading-none"
+            class="masthead-logo font-display inline-block leading-none tracking-tight"
             style="font-weight: 900"
+            aria-label="crush.news — inicio"
             onClick$={closeMenu}
           >
             <span class="text-[var(--color-brand)]">crush</span>
             <span class="text-[var(--text)]">.news</span>
           </Link>
-          <button
-            class="flex h-8 w-8 items-center justify-center rounded-full text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--text)]"
-            aria-label="Cerrar menú"
-            onClick$={closeMenu}
-          >
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-              <path
-                d="M2 2l14 14M16 2L2 16"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-          </button>
+
+          {/* Dateline */}
+          <p class="masthead-date mt-2 text-[10px] font-semibold tracking-[0.18em] text-[var(--text-muted)] uppercase sm:text-[11px]">
+            {dateStr.value || "\u00a0"}
+          </p>
         </div>
-
-        {/* Drawer nav */}
-        <nav aria-label="Navegación móvil" class="h-[calc(100%-65px)] overflow-y-auto px-2 py-3">
-          <ul>
-            {NAV_LINKS.map((link) => {
-              const active = loc.url.pathname.startsWith(link.href);
-              const isOpen = openCategory.value === link.href;
-              return (
-                <li key={link.href}>
-                  {/* Category row */}
-                  <div class="flex items-center">
-                    <Link
-                      href={link.href}
-                      class={[
-                        "flex-1 rounded-lg px-4 py-3 text-sm font-semibold transition-colors",
-                        active
-                          ? "text-[var(--color-brand-text)]"
-                          : "text-[var(--text)] hover:bg-[var(--surface-2)]",
-                      ].join(" ")}
-                      onClick$={closeMenu}
-                    >
-                      {link.label}
-                    </Link>
-                    <button
-                      class="flex h-10 w-10 items-center justify-center rounded-lg text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-2)]"
-                      aria-label={isOpen ? `Cerrar ${link.label}` : `Abrir ${link.label}`}
-                      aria-expanded={isOpen}
-                      onClick$={() => {
-                        openCategory.value = isOpen ? null : link.href;
-                      }}
-                    >
-                      <svg
-                        width="14"
-                        height="14"
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        aria-hidden="true"
-                        class={[
-                          "transition-transform duration-200",
-                          isOpen ? "rotate-180" : "",
-                        ].join(" ")}
-                      >
-                        <path
-                          d="M2 4l5 6 5-6"
-                          stroke="currentColor"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          fill="none"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-
-                  {/* Subcategories accordion */}
-                  {isOpen && (
-                    <ul class="mb-1 ml-4 border-l border-[var(--border)] pl-3">
-                      {link.subs.map((sub) => (
-                        <li key={sub.href}>
-                          <Link
-                            href={sub.href}
-                            class="block rounded-lg px-3 py-2.5 text-sm text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--color-brand-text)]"
-                            onClick$={closeMenu}
-                          >
-                            {sub.label}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-
-          {/* Buscar */}
-          <div class="mt-3 border-t border-[var(--border)] pt-3">
-            <Link
-              href="/buscar/"
-              class="flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-medium text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--text)]"
-              onClick$={closeMenu}
-            >
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                aria-hidden="true"
-              >
-                <circle cx="11" cy="11" r="8" />
-                <path d="m21 21-4.3-4.3" />
-              </svg>
-              Buscar
-            </Link>
-          </div>
-        </nav>
       </div>
+
+      {/* Fullscreen centered menu overlay — desktop + mobile unified */}
+      {menuOpen.value && (
+        <div
+          id="fullscreen-menu"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Menú de navegación"
+          class="menu-overlay fixed inset-0 z-[60] flex items-center justify-center bg-black/85 backdrop-blur-sm"
+          onClick$={closeMenu}
+        >
+          <nav
+            aria-label="Navegación principal"
+            class="menu-panel relative w-full max-w-3xl px-6 py-16 text-center text-white"
+            onClick$={(e) => e.stopPropagation()}
+          >
+            <ul class="space-y-8 md:space-y-10">
+              {NAV_LINKS.map((link, i) => (
+                <li key={link.href} class="menu-item" style={`--i:${i}`}>
+                  <Link
+                    href={link.href}
+                    onClick$={closeMenu}
+                    class="font-display block text-4xl leading-none tracking-tight transition-colors hover:text-[var(--color-brand)] sm:text-5xl md:text-6xl"
+                    style="font-weight: 900"
+                  >
+                    {link.label}
+                  </Link>
+                  <ul class="mt-3 flex flex-wrap justify-center gap-x-4 gap-y-1 text-sm text-white/60">
+                    {link.subs.map((sub, j) => (
+                      <li key={sub.href}>
+                        <Link
+                          href={sub.href}
+                          onClick$={closeMenu}
+                          class="transition-colors hover:text-white"
+                        >
+                          {sub.label}
+                          {j < link.subs.length - 1 && (
+                            <span class="ml-4 text-white/25" aria-hidden="true">
+                              ·
+                            </span>
+                          )}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </li>
+              ))}
+            </ul>
+
+            <div class="menu-item mt-12 border-t border-white/15 pt-8" style="--i:5">
+              <Link
+                href="/buscar/"
+                onClick$={closeMenu}
+                class="font-display inline-flex items-center gap-3 text-2xl font-bold transition-colors hover:text-[var(--color-brand)]"
+              >
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  aria-hidden="true"
+                >
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" />
+                </svg>
+                Buscar
+              </Link>
+            </div>
+          </nav>
+        </div>
+      )}
     </header>
   );
 });
