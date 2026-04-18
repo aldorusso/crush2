@@ -10,8 +10,10 @@ import { Breadcrumbs } from "~/components/Breadcrumbs";
 import { AuthorBox } from "~/components/AuthorBox";
 import { RelatedArticles } from "~/components/RelatedArticles";
 import { SmartImage } from "~/components/SmartImage";
+import { AdSlot } from "~/components/AdSlot";
 import { buildArticleSchema, buildBreadcrumbSchema, schemaToScript } from "~/lib/jsonld";
 import { buildOgArticle, buildTwitterCard, buildHreflang, buildRobotsMeta } from "~/lib/seo";
+import { injectAdsIntoArticle } from "~/lib/ads";
 
 export const useArticleData = routeLoader$(({ params, status }) => {
   const article = getArticleByPath(
@@ -128,7 +130,15 @@ export default component$(() => {
           )}
         </figure>
 
-        <div class="prose" dangerouslySetInnerHTML={article.body} />
+        {injectAdsIntoArticle(article.body).map((seg, i) =>
+          seg.kind === "html" ? (
+            <div key={i} class="prose" dangerouslySetInnerHTML={seg.content} />
+          ) : (
+            <div key={i} class="ad-slot-in-article my-8">
+              <AdSlot slotId={`in-article-${seg.position}`} lazy />
+            </div>
+          ),
+        )}
 
         {article.tags.length > 0 && (
           <div class="mt-8 flex flex-wrap gap-2">

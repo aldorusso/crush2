@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
+import { AdSlot } from "~/components/AdSlot";
 
 const CATEGORIES = [
   { href: "/tecnologia/", label: "Tecnología" },
@@ -23,6 +24,13 @@ export const Footer = component$(() => {
 
   return (
     <footer class="mt-16 border-t border-[var(--border)] bg-[var(--surface-2)]">
+      {/* Footer ad — lazy, full-width */}
+      <div class="border-b border-[var(--border)] py-3">
+        <div class="mx-auto max-w-7xl px-4">
+          <AdSlot slotId="footer" lazy />
+        </div>
+      </div>
+
       <div class="mx-auto max-w-7xl px-4 py-10">
         <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
           <div class="col-span-2 md:col-span-1">

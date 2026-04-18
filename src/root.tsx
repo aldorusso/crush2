@@ -14,6 +14,8 @@ export default component$(() => {
       <head>
         <meta charset="utf-8" />
         {!isDev && <link rel="manifest" href={`${import.meta.env.BASE_URL}manifest.json`} />}
+        {/* Google Consent Mode v2 — must run before any Google scripts */}
+        <script dangerouslySetInnerHTML="window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});" />
         <RouterHead />
         <script type={websiteScript.props.type} dangerouslySetInnerHTML={websiteScript.script} />
         <script type={orgScript.props.type} dangerouslySetInnerHTML={orgScript.script} />
