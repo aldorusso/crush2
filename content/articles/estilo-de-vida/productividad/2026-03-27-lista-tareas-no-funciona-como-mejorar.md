@@ -23,30 +23,103 @@ featured: false
 breaking: false
 ---
 
-Por qué tu lista de tareas no funciona y cómo arreglarlo
+## El hecho incómodo
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Tu lista de tareas probablemente es un cementerio digital. 47 items. 34 tachados. 13 en "pendientes" desde hace 3 meses. ¿Me equivoco?
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Casi siempre que alguien dice "tengo un problema con la productividad," el problema real es que su lista de tareas es un pozo sin fondo emocional. Miras la lista. Te abruma. La ignoras. La vuelves a mirar. Ansiedad.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+La lista no funciona porque **fue diseñada para guardar tareas, no para ejecutarlas.**
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+## El error de diseño
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+La mayoría de listas de tareas simplemente acumulan. ToDo, Todoist, Apple Reminders, papel: todos hacen lo mismo.
 
-## Más sobre este tema
+- Agregar tarea: fácil.
+- Priorizar: imposible (¿cómo priorizas entre "comprar leche" y "escribir propuesta"?).
+- Revisar: ansiedoso (ves todo lo que no hiciste).
+- Terminar: raro (la mayoría de tareas se olvidan, no se completan).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+El resultado: acumulación. Tu lista se convierte en un espejo de todo lo que fallaste.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Esto es lo opuesto a motivación.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+## Los errores más comunes (y por qué los cometemos)
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+**Error 1: Confundir proyectos con tareas**
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+"Escribir libro" no es una tarea. Es un proyecto (50 tareas). Lo pones en la lista, la miras, y tu cerebro te dice "eso es demasiado grande, paso."
 
-## Conclusión
+Haz esto en lugar: divide "escribir libro" en "escribir capítulo 1," y divide eso en "outline capítulo 1" (eso sí es una tarea: 30–60 min).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Error 2: Demasiadas tareas**
+
+La mayoría de listas tienen 30+ tareas "activas." Tu cerebro solo puede mantener 3–5 objetivos en atención simultáneamente. El resto es ruido que genera ansiedad.
+
+Prueba esto: cada día, elige 3 tareas máximo. No agregues más. Termina esas 3.
+
+**Error 3: Sin tiempo asignado**
+
+"Llamar al dentista" puede tardar 5 minutos o 2 horas (si te ponen en espera). Tu lista no sabe eso. Tu calendarios sí.
+
+Agenda: "Llamar dentista: 9:00–9:15 am." Bloqueado. Tiempo real. No es una lista ambigua.
+
+**Error 4: Revisión desorganizada**
+
+Revisas la lista cuando se te ocurre (caótico) o una vez a la semana (demasiado tarde). El momento ideal: cada mañana, 5 minutos. Miras solo hoy. Listo.
+
+**Error 5: No incluir tareas pequeñas**
+
+Si tu lista es solo "proyectos grandes," te deprime. Incluye también:
+
+- Cosas que toman <5 minutos.
+- Tareas repetidas (si hoy llamaste al dentista, eso cuenta como "completado").
+
+El cerebro necesita victorias pequeñas para mantener momentum.
+
+## Un sistema que realmente funciona
+
+**Paso 1: Limpia tu lista actual**
+
+- Todo lo que no hayas hecho en 3 meses: borralo. Fue aspiracional, no real.
+- Todo lo que no sabes por qué lo pusiste: borralo.
+- Qué queda: un 30–40% máximo de tu lista original.
+
+**Paso 2: Reorganiza por contexto**
+
+En lugar de una sola lista, usa contextos:
+
+- **Hoy** (máx 3 tareas, tiempo asignado en calendario)
+- **Semana** (5–7 tareas, repartidas en días)
+- **Proyecto X** (desglosado en subtareas)
+- **Someday** (aspiraciones sin fecha)
+
+Cada mañana: miras solo "Hoy." El resto no existe.
+
+**Paso 3: Estima el tiempo real**
+
+Antes de agregar una tarea, pregúntate: "¿Cuánto tarda realmente?" Luego agrega 50%. (Porque siempre tarda más.)
+
+Si una tarea dura >2 horas, divídela.
+
+**Paso 4: Revisa cada mañana (5 minutos)**
+
+No durante el día. Una sola vez. Mañana: 9:00 am. Café. Abre la lista. ¿Qué es hoy?
+
+**Paso 5: Una tarea importante primero**
+
+Antes de todo, haz tu tarea más importante (que generalmente es la que evitas). Cuerpo descansado, mente fresca. Listo. Luego, todo lo demás es victoria.
+
+## La verdad incómoda
+
+Tu lista de tareas no es un sistema de productividad. Es un espejo de tu ansiedad.
+
+La gente productiva no usa listas complicadas. Usan sistemas simples:
+
+- Mañana: 3 cosas.
+- Hoy es un éxito si hago esas 3 cosas.
+- Mañana: otras 3.
+
+Eso es todo.
+
+El rest es sofisticación que mata la acción.

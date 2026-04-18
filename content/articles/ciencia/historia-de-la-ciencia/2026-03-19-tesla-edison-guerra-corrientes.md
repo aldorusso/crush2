@@ -23,30 +23,54 @@ featured: false
 breaking: false
 ---
 
-Nikola Tesla y Edison: la guerra de las corrientes que Tesla perdió (y ganó)
+## La pregunta que decidió dos sistemas eléctricos
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+1887: Nueva York. Thomas Edison controla la distribución eléctrica con corriente continua (DC). Nikola Tesla inventa el transformador que hace viable la corriente alterna (AC). Aquí comienza la guerra.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+DC funciona en distancias cortas. Edison construyó estaciones generadoras cada 2 km en Manhattan. Costaba dinero. Mucho dinero. Pero Edison era businessman primero, inventor segundo.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+AC permite transmisión a largas distancias con un simple transformador. Un generador en las cataratas del Niágara podía alimentar Nueva York entera. Tesla lo sabía. Edison lo sabía. Pero Edison ya había invertido millones en DC.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Entonces hizo lo que haría cualquier monopolio: intentó destruir a su competencia científicamente.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+## La "campaña de la silla eléctrica"
 
-## Más sobre este tema
+Esto no es metáfora. Edison invirtió dinero en promover la ejecución con corriente alterna para convencer al público de que AC era "peligrosa."
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+1890: William Kemmler fue el primer reo ejecutado mediante silla eléctrica. Alimentada con corriente alterna. Edison financió pruebas públicas demostrando que AC mataba (cosa que también hace DC, pero ese detalle lo omitió).
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Edison incluso acuñó el término "electrocution" (ejecución mediante electrocución). Fue propaganda pura.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Funcionó. Por un tiempo. El público tenía miedo a AC.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+## Por qué Tesla ganó científicamente (pero Edison ganó comercialmente)
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+AC es superiormente eficiente. Permite transmisión de larga distancia. Permite transformación de voltaje (esencial para distribuir energía). DC no.
 
-## Conclusión
+En 1893, la exposición mundial de Chicago debía elegir cuál sistema usar para la iluminación. Edison presionó. Tesla ganó el contrato. Una vez iluminada toda la ciudad con AC, fue obvio cuál era mejor.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Pero Edison ganó algo más
+
+Edison no ganó la guerra de las corrientes (AC se convirtió en estándar global). Pero ganó algo que Tesla nunca tuvo: reconocimiento público y fortuna duradera.
+
+Edison fue un showman. Patentó todo lo que tocaba. Formó compañías. Contrató abogados.
+
+Tesla fue un genio que vivió en un hotel, vendía sus patentes cuando le hacía falta dinero, e intentó construir una torre de transmisión inalámbrica (el Wardenclyffe) sin dinero suficiente. Nunca la terminó.
+
+## Lo que el público no sabe
+
+- Tesla inventó AC pero **no fue el primero**. Galileo Ferraris lo hizo antes, pero Tesla lo perfeccionó.
+- Edison no inventó la bombilla incandescente. Joseph Swan lo hizo antes. Edison simplemente hizo una que duraba más.
+- Ambos estaban siendo honestos en sus demonizaciones mutuas (DC es peligroso, AC es peligroso), pero una mentira repetida mil veces se vuelve verdad.
+
+## El legado
+
+Hoy usamos AC principalmente por:
+
+1. Eficiencia en transmisión (Tesla tenía razón).
+2. Facilidad de transformación de voltaje (Tesla tenía razón).
+3. Pero datacenters y electrónica moderna usan DC internamente (Edison tenía razón).
+
+La verdad: ambos sistemas son necesarios. Pero AC ganó porque fue mejor. Y Tesla perdió porque no supo vender lo que inventó.
+
+Eso es lo incómodo sobre la historia de la ciencia: la mejor idea no siempre gana. Gana quien puede financia una mejor campaña.

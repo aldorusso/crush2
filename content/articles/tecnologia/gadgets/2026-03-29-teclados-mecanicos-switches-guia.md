@@ -23,30 +23,78 @@ featured: false
 breaking: false
 ---
 
-Teclados mecánicos para empezar: qué switches elegir y por qué importa
+## Por qué importan los switches más de lo que crees
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Un teclado mecánico sin el switch correcto es como un auto con la transmisión equivocada: técnicamente funciona, pero todo se siente mal.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Un switch es el mecanismo bajo cada tecla que registra tu presión. Existen decenas de variantes.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+La diferencia entre switches es medible:
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+- **Feedback táctil**: ¿sientes un "click" o es suave?
+- **Sonido**: ¿es silencioso o ruidoso?
+- **Activación**: ¿cuánta presión requiere?
+- **Durabilidad**: ¿cuántas pulsaciones antes de fallar?
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+Elegir el switch equivocado significa 8 horas diarias con un periférico que no te ama.
 
-## Más sobre este tema
+## Los tres tipos principales
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Switches lineales (rojo, negro, amarillo)**
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+- Sensación: Suave, sin resistencia. Como deslizarse en hielo.
+- Sonido: Silencioso.
+- Mejor para: Gaming, velocidad, fluidez.
+- Peor para: Typists que quieren feedback. Te das cuenta cuando presionaste? No realmente.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Cherry MX Red es el estándar.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+**Switches táctiles (marrón, gris, jade)**
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+- Sensación: Pequeño "bump" cuando presionas. Sabes que registró.
+- Sonido: Silencioso-ish.
+- Mejor para: Escribir código, escribir en general. Equilibrio ideal.
+- Peor para: Puristas de gaming (es lentamente más lento que lineal).
 
-## Conclusión
+Cherry MX Brown es el estándar.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Switches clicky (azul, blanco)**
+
+- Sensación: Bump más pronunciado + sonido click audible.
+- Sonido: RUIDOSO. Tu jefe/pareja/compañero de piso lo odiará.
+- Mejor para: Satisfacción mecánica pura. Te sientes como un hacker de los 80s.
+- Peor para: Oficinas compartidas. Trabajar de noche. Cualquier contexto social.
+
+Cherry MX Blue es el estándar.
+
+## Guía rápida "Qué switch elegir"
+
+**Si trabajas en oficina con otros:** Brown o silenciosos rojos. Necesitas ruido mínimo.
+
+**Si trabajas solo:** Azul. El sonido es parte de la diversión.
+
+**Si codificas:** Brown. Necesitas saber que cada tecla fue registrada. La fluidez de lineales no compensa.
+
+**Si juegas competitivamente:** Rojo lineal. La velocidad importa más que el feedback.
+
+**Si eres nuevo:** Brown. Es el intermediario. No te arrepentirás.
+
+## Los "mejores" switches según Reddit
+
+Honestamente? La diferencia entre Cherry MX Brown, Gateron Brown, y Kailh Brown es **mínima**. Las reviews online exageran diferencias microscópicas.
+
+Lo que importa:
+
+1. **Lineal vs. Táctil vs. Clicky** (eso es grande)
+2. **Peso de la presión** (45g vs. 60g—notarás la diferencia)
+3. **Marca** (Cherry > Gateron > Kailh, pero todos son buenos)
+
+## El verdadero secreto
+
+Un teclado mecánico es una inversión. Dura años. Si pasas 8 horas con él, **el switch incorrecto es un gasto de plata**.
+
+Pero el "mejor" switch es el que tu mano ama. No existe verdad universal.
+
+Si puedes, prueba antes de comprar. Pide prestado. Ve a una tienda que tenga demostradores.
+
+La diferencia entre un switch que amas y uno que toleras es la diferencia entre escribir como un poeta y escribir como un robot.

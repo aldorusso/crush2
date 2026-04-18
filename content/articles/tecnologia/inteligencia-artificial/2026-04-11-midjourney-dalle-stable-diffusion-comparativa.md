@@ -23,30 +23,68 @@ featured: false
 breaking: false
 ---
 
-Midjourney vs DALL-E vs Stable Diffusion: qué generador de imágenes elegir
+## La comparación honesta
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Honestamente, el "mejor" generador de imágenes no existe. Existen generadores optimizados para problemas diferentes.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Es como preguntar si es mejor Photoshop o Figma. Depende de qué hagas.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+## Midjourney (el mejor para arte)
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+**Costo:** $10–$100/mes (por generaciones, no tiempo)
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+**Calidad:** Superior en coherencia artística. Las manos de las personas salen bien (cosa que otras fallan notoriamente).
 
-## Más sobre este tema
+**Interfaz:** Discord. Escribes un prompt en un servidor. Genera 4 variantes. Eso es todo.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Mejor para:** Ilustración, arte conceptual, portadas de libros, cualquier cosa que requiera estética pulida.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+**Peor para:** Precisión técnica, objetos complejos, edición granular.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+## DALL-E 3 (el más versátil)
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+**Costo:** $0.02–$0.04 por imagen (aunque OpenAI ajusta esto constantemente).
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+**Calidad:** Buena. No la mejor en arte puro, pero excelente en "entender" lo que pediste.
 
-## Conclusión
+**Interfaz:** Web UI bonita. Integrado en ChatGPT. Escribes un prompt, refinan juntos (IA + tú), luego genera.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Mejor para:** Profesionales que necesitan resultados rápido. Blog posts. Presentaciones. Cosas que necesitan ser "buenas" pero no "arte."
+
+**Peor para:** Experimentación artística. Tienes 1 generación gratis/prompt, luego pagas.
+
+## Stable Diffusion (el democrático)
+
+**Costo:** Gratis. (O pagar por instancia en la nube).
+
+**Calidad:** Varía según el modelo. Con los modelos correctos, es comparable a DALL-E. Peor que Midjourney para arte.
+
+**Interfaz:** Corre localmente en tu PC (si tienes GPU). Código abierto. Comunidad enorme.
+
+**Mejor para:** Experimentación. Quieres controlar todo? Stable Diffusion. Quieres entrenar tu propio modelo? Stable Diffusion.
+
+**Peor para:** Facilidad de uso inicial. Requiere setup técnico.
+
+## Comparativa rápida
+
+| Aspecto           | Midjourney | DALL-E 3   | Stable Diffusion     |
+| ----------------- | ---------- | ---------- | -------------------- |
+| Calidad artística | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐   | ⭐⭐⭐               |
+| Facilidad de uso  | ⭐⭐⭐     | ⭐⭐⭐⭐⭐ | ⭐⭐                 |
+| Costo             | $$         | $$         | Gratis\*             |
+| Personalización   | ⭐         | ⭐⭐       | ⭐⭐⭐⭐⭐           |
+| Velocidad         | ⭐⭐⭐⭐   | ⭐⭐⭐     | ⭐⭐⭐ (depende GPU) |
+
+## La verdad incómoda
+
+Nadie debería elegir basado en "comparativas" abstractas.
+
+La pregunta real es: **¿para qué lo necesitas?**
+
+- **Quiero generar ilustraciones para vender:** Midjourney.
+- **Quiero generar imágenes rápido para trabajo:** DALL-E 3.
+- **Quiero aprender a entrenar modelos / experimentar:** Stable Diffusion.
+
+Gastarás dinero en el equivocado si intentas usar Midjourney para producción rápida (lenta) o DALL-E para experimentación profunda (limitada).
+
+La "mejor" IA generativa es la que encaja con tu flujo de trabajo, no la que tiene puntajes más altos en benchmarks.

@@ -23,30 +23,62 @@ featured: false
 breaking: false
 ---
 
-Sevilla en otoño: por qué es la mejor temporada para visitarla
+## El cambio ocurre a principios de septiembre
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Septiembre es cuando Sevilla deja de ser un escenario turístico y vuelve a ser una ciudad.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Junio a agosto: 40–45ºC, turistas en las plazas, colas de 2 horas en la Catedral, precios inflados 200%. La gente visita Sevilla porque es Sevilla. Bonita, histórica, Instagram-friendly.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Septiembre: 30–33ºC, las familias locales vuelven de pueblos costeros, las cafeterías llenan sus terrazas con gente con tiempo de verdad, la luz dorada de otoño convierte cada callejón en algo que parece pintado.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Esto es lo que los turistas pierden.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+## Por qué el clima es perfecto (no es solo temperatura)
 
-## Más sobre este tema
+La temperatura es un factor. Pero la transformación real es sensorial.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+En junio, Sevilla es un horno. Caminan de entrada a entrada buscando aire acondicionado. Las plazas están vacías al mediodía. La gente existe en modo "resistencia."
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+En octubre, puedes estar en una terraza a las 7 p.m. sin sudar. Puedes recorrer el Barrio Santa Cruz sin prisas. La Giralda no es un destino Instagram que logres cruzar en foto. Es un espacio que experimentas.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+La luz cambia también. El sol baja en ángulo, las sombras son más dramáticas. Los patios y azulejos ancestrales devuelven colores que el sol vertical de verano aplana.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+## Dónde comer sin sorpresas de precio
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+**Triana** (la orilla oeste del río): raciones de espinacas con garbanzos, morcilla, boquerones. Bares de barrio donde la gente come, no donde turistas se sacan fotos. Precio: 3–5€ raciones. Vino blanco de Huelva: 2€.
 
-## Conclusión
+**Mercado de Triana**: como un mercado andaluz debe ser. Pescadera con mejillones del Atlántico, verdulería con tomates rojos de verdad, carnicería donde piden "un buen lomo." Menú rápido: 8€.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**El centro (Santa Cruz, Alcázar)**: come en las callejitas secundarias, no en las plazas principales. Una cazuela de espinacas o un salmorejo (gazpacho grueso con jamón) en un bar de barrio cuesta 7€. En la Plaza de España, lo mismo cuesta 18€.
+
+**Comidas especiales**: Rabo de toro (ensalada fría), espinacas con garbanzos, boquerones en vinagre, mollejas. Pide lo que ves que come la gente local.
+
+## Qué ver sin agobio
+
+La diferencia no es qué ver. Es cómo verlo.
+
+**Catedral + Giralda**: reserva entrada anticipada (reduces filas de 2h a 30 min). Go at 8 a.m. or after 6 p.m. El resto del día está atestada.
+
+**Alcázar**: mismo truco. Entrada temprana. Si entras a las 8:30 a.m., tienes los patios casi solos. A las 11 a.m., la gente llena los patios como hormigas.
+
+**Barrio Santa Cruz**: camina a las 8 a.m. o después de las 8 p.m. Las plazas pequeñas son reales. En su formato otoñal, son exactamente como las pintaba Murillo.
+
+**Parque María Luisa**: pasea sin mapa. Haz un bucle desde la Plaza de España hacia los patios laterales. La gente está concentrada en la plaza; los patios con fuentes están solos.
+
+**Triana de noche**: restaurantes con mesas en la calle. Pasa el río desde el centro después de comer. El río al atardecer, la Catedral iluminada en el fondo. Vino blanco. Conversación lenta.
+
+## Dónde quedarse (y por qué importa)
+
+**Dentro del centro histórico** (Santa Cruz, Alcázar, catedral): sí, es caro. Pero ahorras horas de transporte y disfrutas de la ciudad a diferentes horas. Airbnb o pequeños hoteles. Evita las cadenas grandes (anónimas).
+
+**Triana**: más barato, más auténtico. Lado opuesto del río, pero la vista de la Catedral desde allá es mejor que desde el centro mismo.
+
+**Evita**: Avenida de la Constitución directamente (ruido, tráfico), Plaza Nueva (turístico). Busca callejitas secundarias.
+
+## La verdad sobre otoño
+
+Sevilla en otoño no es "diferente porque está menos llena." Es diferente porque la ciudad respira.
+
+En verano, Sevilla es un monumento. En otoño, es un lugar donde la gente vive, come lentamente, camina sin prisa, y permite que los visitantes hagan lo mismo.
+
+Eso no se puede fotografiar bien. Por eso pocos turistas vuelven en otoño. Es pérdida de ellos.

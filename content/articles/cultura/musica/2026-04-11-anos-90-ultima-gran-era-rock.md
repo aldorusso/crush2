@@ -23,30 +23,46 @@ featured: false
 breaking: false
 ---
 
-Por qué los años 90 fueron la última gran era del rock
+## La convergencia perfecta
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+1991: Nirvana publica _Nevermind_. Grunge explota.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Simultáneamente: Blur, Oasis, Radiohead dominan el UK. Britpop.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Misma década: Pearl Jam, Soundgarden, Alice in Chains en Seattle. Tool, Rage Against the Machine innovando metal.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Esto no fue accidente. Fue una alineación generacional.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+## Por qué fue irrepetible
 
-## Más sobre este tema
+**La MTV aún mostraba videoclips**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+No TikTok. No streaming. Si querías escuchar música, mirabas MTV. Los artistas podían ser "estrellas" de forma unificada.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+**La radio tenía poder**
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Un sencillo en la radio te llegaba a millones simultáneamente. No algoritmos frragmentados. Exposición masiva.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+**La industria no sabía qué estaba pasando**
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+Las discos esperaban la próxima ola de synthpop. En lugar de eso: guitarras fuzzy y angst. Les tomó por sorpresa.
 
-## Conclusión
+## Qué cambió
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Internet fragmentó la música**
+
+Ya no hay "una" onda. Hay 10,000 nichos. Spotify te muestra lo que alguien como tú escucha. No lo que escucha el mundo.
+
+**Los artistas deben tener presencia digital**
+
+No basta sonar bien. Debes tuitear, hacer TikToks, ser "relatable." La música se convirtió en marketing personal.
+
+**El streaming mató las giras**
+
+Los 90: ganaban dinero con álbumes. Hoy: los álbumes pierden dinero. Ganancia viene de tours. Presión constante de estar "on."
+
+## La verdad
+
+Los 90 fueron la última década donde podía haber una "onda global de rock" porque la distribución era centralizada y los artistas aún podían ganar dinero vendiendo música.
+
+Eso se acabó. No volverá.

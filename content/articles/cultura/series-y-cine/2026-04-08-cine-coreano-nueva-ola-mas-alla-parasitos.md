@@ -23,30 +23,75 @@ featured: false
 breaking: false
 ---
 
-La nueva ola del cine coreano: más allá de Parásitos
+## Parásitos no fue un punto de quiebre. Fue un punto visible.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Cuando Bong Joon-ho ganó la Palma de Oro en Cannes 2019 con Parásitos, occidente descubrió que Corea del Sur hacía películas buenas.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Lo que occidente no supo es que Corea llevaba 20 años haciéndolas.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+La "nueva ola" del cine coreano no comenzó en 2019. Comenzó en 1999, cuando Park Chan-wook dirigió "The Handmaiden" (de 2016, pero el movimiento que la permitió nació en 1999).
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Parásitos fue simplemente **la película que convenció a occidente de pagar entradas.**
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+## La historia que precede a Parásitos
 
-## Más sobre este tema
+1999: "Shiri" (drama de acción-suspense) gana el box office coreano con casi 6 millones de espectadores. Le roba la corona a Titanic. Los coreanos descubren que pueden hacer cine taquillero que **también es bueno**.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+2000-2010: Explosión creativa. Park Chan-wook (Vengeance Trilogy), Bong Joon-ho (Memorias de un asesino), Lee Chang-dong (Burning), Joon-ho Na (The Chaser).
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+El cine coreano desarrolla una identidad:
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+- **Desconfianza del poder**: Las películas coreanas asumen que el gobierno/sociedad es corrupto. Las autoridades mienten.
+- **Clase como tema central**: El dinero divide el mundo. La mala suerte nace del dinero mal distribuido.
+- **Violencia de tensión**: No sangre, sino asfixia psicológica. Malestar sostenido.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+2010-2019: Consolidación. Las películas coreanas comienzan a ganar festivales (aunque occidente aún no paga).
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+2019: Parásitos. Occidente finalmente compra entradas.
 
-## Conclusión
+## Por qué el cine coreano es distinto
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**1. Libertad tras censura**
+
+Korea del Sur pasó de ser país autoritario (1980s) a democracia (1990s). El cine es el arte que explota esa transformación.
+
+Las películas coreanas exploran ira que fue reprimida legalmente.
+
+**2. Prensa sensacionalista**
+
+Los medios coreanos son brutales. Las películas reflejan esa dureza sin filtro.
+
+Compara Burning (película coreana sobre clase y resentimiento) con películas occidentales sobre los mismos temas. La coreana es más agresiva, menos suave.
+
+**3. Influencia de la forma de pensar oriental**
+
+La narrativa occidental: héroe vs. villano. Alguien debe ganar.
+
+La narrativa coreana: el mundo es injusto. Todos pierden. Algunos pierden más.
+
+## Películas esenciales (más allá de Parásitos)
+
+**Para empezar:**
+
+- Memorias de un asesino (2003) — Bong Joon-ho, policial, perverso.
+- The Chaser (2008) — Acción y tensión psicológica.
+- Burning (2018) — Lento, denso, brillante.
+
+**Para profundizar:**
+
+- The Vengeance Trilogy (Park Chan-wook) — 3 películas, 0 relación, 100% perfección.
+- Snowpiercer (2013) — Bong Joon-ho, ciencia ficción distópica.
+- A Tale of Two Sisters (2003) — Horror psicológico / trauma familiar.
+
+## El fenómeno "post-Parásitos"
+
+Después de que Parásitos ganó Mejor Película en Oscars (primera película no-inglesa en hacerlo), occidente supo dos cosas:
+
+1. Corea hace películas buenas.
+2. Corea hace películas que hablan de dinero y clase de formas que Hollywood evita.
+
+Ahora hay una carrera. Cada distribuidor occidental quiere "el próximo Bong Joon-ho."
+
+Pero el cine coreano no es un género. Es una **sensibilidad**: pesimismo inteligente, violencia narrativa, y la creencia de que el dinero corrompe todo.
+
+Eso no es tendencia. Es filosofía nacional.

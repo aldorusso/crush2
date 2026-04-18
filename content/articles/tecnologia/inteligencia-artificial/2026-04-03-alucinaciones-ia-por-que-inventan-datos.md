@@ -23,30 +23,61 @@ featured: false
 breaking: false
 ---
 
-El problema de las alucinaciones en la IA: por qué los modelos inventan datos
+## Pregunta incómoda: ¿inventan las IAs o son incapaces de admitir que no saben?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ChatGPT te dirá con total seguridad que una película estrenada en 2025 con éxito de taquilla fue "La Brújula Dorada," cuando esa película salió en 2007. Lo fascinante (y aterrador) no es que minta. Es que **no sabe que miente**.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Las alucinaciones son el nombre bonito para "la IA genera texto completamente falso y lo presenta como verdad." Los modelos de lenguaje operan sin acceso a una base de datos verdadera. Son predicción de tokens. Nada más.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+## La matemática detrás del problema
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Un LLM (Large Language Model) como ChatGPT o Claude es esencialmente una máquina probabilística gigantesca. Fue entrenado en miles de millones de tokens (palabras, símbolos) y aprendió a predecir cuál es el siguiente token más probable basado en los anteriores.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+Cuando escribes "¿Cuál es la capital de Francia?", el modelo no "busca" la respuesta en una base de datos. Predice que los tokens más probables después de tu pregunta son "París" → "es" → "la" → "capital."
 
-## Más sobre este tema
+¿El problema? El modelo no distingue entre:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+- Información verdadera con la que fue entrenado.
+- Información falsa que apareció en páginas del entrenamiento.
+- Información que nunca existió, pero cuya distribución probabilística "suena" correcta.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Una película ficticia que "debería" sonar como una película real (adjectives normales, año plausible, géneros coherentes) es **indistinguible** para el modelo de una película real. La IA genera la secuencia de palabras que maximiza su probabilidad. Punto.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+## Por qué son especialmente peligrosas
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Las alucinaciones no son errores aleatorios. Son **confiadas, específicas y creíbles**.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+La IA no te dice "no sé si existe eso." Te da hechos inventados: títulos de papers ficticios con autores reales, citas exactas de libros que no existen, estadísticas con números específicos.
 
-## Conclusión
+Esto es peor que ignorancia. Es falsa certeza.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Un estudio de 2023 encontró que los modelos de lenguaje alucinan más cuando:
+
+1. El tema es especializado (menos datos en entrenamiento = mayor incertidumbre = invención).
+2. Le pides datos muy nuevos (después de su fecha de corte).
+3. Confías en el modelo (y ello lo "anima" a inventar detalles para parecer confiable).
+
+## Defensas incompletas
+
+Los investigadores han probado varias estrategias:
+
+**Retrieval-Augmented Generation (RAG)**: El modelo busca información en una base de datos verdadera antes de responder. Funciona, pero ralentiza todo y es costoso.
+
+**Calibración de confianza**: Entrenar al modelo para decir "no sé" cuando es incierto. Parcialmente funciona, pero sacrifica utilidad (la gente pregunta cosas sobre temas donde la incertidumbre es normal).
+
+**Fine-tuning con datos verificados**: Solo entrenar con información confiable. Pero eso limita el conocimiento del modelo y toma años.
+
+La realidad es que no hay solución perfecta. Las alucinaciones son un defecto arquitectónico, no un bug que se arregle actualizando.
+
+## La verdad incómoda
+
+Usas ChatGPT/Claude sabiendo que pueden inventar. ¿Qué haces?
+
+1. **Para tareas creativas**: Perfecto. Genera ideas, versiones alternativas, brainstorms.
+2. **Para hechos específicos**: Verifica siempre. No es opinión, es necesidad.
+3. **Para código**: Revisa línea por línea. Las alucinaciones aquí se llaman "bugs sutiles."
+4. **Para diagnósticos médicos/legales**: Ni lo intentes. Las IAs son máquinas de persuasión, no máquinas de verdad.
+
+La pregunta no es "¿Cómo hacemos IAs que no alucinen?" sino "¿Qué tareas no deberíamos confiar a máquinas que, por definición, no tienen acceso a la verdad?"
+
+La respuesta depende de ti.

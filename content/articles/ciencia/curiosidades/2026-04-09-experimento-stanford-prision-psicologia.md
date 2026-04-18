@@ -58,5 +58,3 @@ No "las personas son naturalmente crueles cuando tienen poder."
 La lección verdadera: **los científicos pueden sesgarse hacía sus propias hipótesis.** Zimbardo quería demostrar algo. Lo demostró. Convenientemente.
 
 ## Conclusión
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

@@ -23,30 +23,82 @@ featured: false
 breaking: false
 ---
 
-El colapso de los videojuegos de 1983: la crisis que casi destruyó la industria
+## 1982: el boom imposible
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+En 1982, Estados Unidos gastó 3.200 millones de dólares en videojuegos. Atari era prácticamente sinónimo de "videojuego." Las tiendas no podían mantener el inventario. Padres compraban Atari porque era lo que todos querían.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Luego ocurrió algo que nadie esperaba: el mercado se colapsó completamente.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+En 1983, las ventas cayeron a 100 millones. **97% de reducción.**
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Tiendas enteras dedicadas a videojuegos cerraron. Atari fue saqueada. El juego E.T. (licencia pagada a Steven Spielberg por $21 millones, cantidad insana para 1982) fue tan malo que millones de cartuchos fueron a un vertedero del desierto de Nuevo México.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+La industria estuvo al borde de la extinción. Que hoy exista una industria de $200+ mil millones es sorprendente considerando ese colapso.
 
-## Más sobre este tema
+## Las razones del colapso
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**1. Sobresaturación de juegos horribles**
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Cualquiera podía publicar un juego para Atari. No había estándares de calidad. Ni control editorial. Atari vendía un cartridge casi en blanco: "Aquí, hazle software."
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Resultado: miles de juegos terribles. La tienda de tu barrio tenía 200 títulos. El 95% eran inefables.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+El jugador promedio probaba 5 juegos malos, luego se daba por vencido.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+**2. La mentira del E.T.**
 
-## Conclusión
+E.T. fue uno de los peores juegos jamás lanzados. Mecánicas imposibles, gráficos oscuros, narrativa confusa.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Pero era de Steven Spielberg. Atari pagó $21 millones (en dinero de 1982) por la licencia. Fue el videojuego más caro del mundo hasta ese momento.
+
+Vendieron millones de cartuchos a padres que pensaban: "Es Spielberg, debe ser bueno."
+
+Decepción masiva.
+
+**3. El hardware se volvió obsoleto rápidamente**
+
+Commodore 64 (1982) costaba casi lo mismo que Atari 2600 ($399 vs $300), pero tenía gráficos superiores.
+
+Entonces ¿por qué comprar Atari si Commodore era mejor?
+
+Atari respondió: más juegos. Pero la mayoría eran basura.
+
+**4. El fenómeno de la "burbuja especulativa"**
+
+Es la misma dinámica de cualquier burbuja:
+
+- Los precios suben porque toda el mundo "sabe" que esto crecerá.
+- Nuevos actores entran porque el mercado es "seguro."
+- La oferta explota. La demanda no sigue.
+- Precios se desploman.
+- Pánico.
+
+Fue una burbuja. Como crypto en 2021, como dot-coms en 2000.
+
+## Cómo Nintendo lo solucionó
+
+La industria se reinventó con Nintendo Entertainment System (NES, 1983-1985).
+
+**Las diferencias:**
+
+1. **Gatekeeping de calidad**: Nintendo no permitía que cualquiera publicase juegos. Teníamos un sistema de licencias estricto. Los juegos tenían que ser buenos.
+
+2. **Un juego excepcional de lanzamiento**: Super Mario Bros (1985). No era el juego más avanzado. Era el mejor juego jamás jugado en ese momento. Cambió las expectativas.
+
+3. **Cambio de marketing**: Nintendo posicionó NES como "entretenimiento," no como "juego de computadora." Los anuncios mostraban familias. Cambió el público objetivo de nerds a todos.
+
+4. **Hardware modesto pero confiable**: NES no era el más potente. Pero era fiable, tenía juegos buenos garantizados, y los cartuchos no eran prohibitivamente caros.
+
+## La lección que nadie aprendió
+
+Hoy, la industria del juego está nuevamente en una burbuja especulativa. AAA studios lanzan juegos que cuestan $300 millones de presupuesto.
+
+Muchos fracasan. Pero el modelo persiste porque:
+
+- Los ejecutivos no conocen la historia de Atari.
+- Los inversores siguen creyendo en "el siguiente Mario."
+- El momentum es difícil de frenar.
+
+Una corrección es inevitable. No será tan dramática como 1983 (porque el mercado es más diverso ahora: indie games, mobile, etc.). Pero la sobresaturación de AAA mediocres está llegando a su límite.
+
+La pregunta es: ¿habrá un Nintendo que lo salve? ¿O la industria aprenderá finalmente que la calidad importa más que el presupuesto?

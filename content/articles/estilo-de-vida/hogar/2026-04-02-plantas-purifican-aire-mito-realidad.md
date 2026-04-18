@@ -23,30 +23,68 @@ featured: false
 breaking: false
 ---
 
-Plantas que purifican el aire de casa: mito vs realidad
+## El estudio de la NASA que nadie leyó correctamente
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+En 1989, la NASA publicó un estudio titulado "Interior Landscape Plants for Indoor Air Pollution Abatement" (plantas de interior para la reducción de contaminación aérea interior).
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Conclusión: ciertas plantas pueden remover benceno, xileno, formaldehído del aire.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Esto fue transformado por Instagram en: **"Compra plantas y purifica tu casa."**
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Pero nadie mencionó el detalle crucial que la NASA sí mencionó: el experimento fue en cámaras selladas con aire controlado. En una casa normal, con ventilación, puertas abiertas, y movimiento de aire, los resultados son... diferentes.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+## Los números que nadie publica
 
-## Más sobre este tema
+Para remover significativamente la contaminación aérea de una casa típica (100m²) necesitarías aproximadamente:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**400–600 plantas medianas.**
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+No 4. No 40. **400 plantas.**
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+¿Cuánto espacio ocupa eso? Tu casa se convierte en una jungla. Una muy hermosa, pero una jungla.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Para comparación: encender una ventana durante 10 minutos remueve más contaminantes que 400 plantas en un día.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+## Lo que las plantas SÍ hacen
 
-## Conclusión
+Esto suena negativo. Pero no, las plantas son útiles. Solo no de la forma que Instagram dice.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Sí hacen:**
+
+1. **Aumentan la humedad**: Las plantas respiran agua. En invierno, cuando todo está seco, eso es útil.
+
+2. **Reducen CO2 localmente** (ligeramente): Si tienes una planta grande (tipo Ficus) en tu dormitorio, absorbe un poco más de CO2 durante el día. Mínimo. Pero real.
+
+3. **Purifican tóxicos en escala de laboratorio**: En una cámara sellada. En tu casa, no. Pero lo hacen, técnicamente.
+
+4. **Te hacen sentir mejor**: Las plantas generan bienestar. Es psicológico, pero es real. Tu cerebro es engañable en formas útiles.
+
+5. **Hacen que el aire se vea menos contaminado** (metafóricamente): Psicológicamente, estás más inclinado a ventilar si tienes plantas (porque las plantas necesitan aire fresco).
+
+## Las plantas más resistentes (para los que matan plantas)
+
+Si vas a tener plantas (y deberías, por el bienestar mental), aquí están las que sobreviven al negligencia:
+
+1. **Pothos (Epipremnum aureum)**: Vive en sombra. Agua cada 2 semanas. Casi imposible de matar.
+
+2. **Sansevieria (lengua de suegra)**: Agua cada 3 semanas. Prospera con negligencia.
+
+3. **ZZ (Zamioculcas zamiifolia)**: Agua cada 2-3 semanas. Brillante, planta de office.
+
+4. **Dracaena**: Múltiples variedades. Agua cada 2 semanas. Crece aunque la ignores.
+
+5. **Ficus Lyrata (hoja de violín)**: Necesita más luz, pero una vez establecido, es bastante tolerante.
+
+Evita: Orquídeas (complicadas), plantas tropicales (necesitan humedad), cualquier cosa que diga "requiere luz directa" si tu apartamento es oscuro.
+
+## La conclusión honesta
+
+Las plantas no purifican tu casa.
+
+Pero te hacen sentir mejor. Y alguien que se siente mejor es más inclinado a abrir ventanas, ventilar, y vivir de formas más saludables.
+
+¿Es placebo? Un poco. ¿Funciona? Completamente.
+
+Compra plantas. Pero no para purificar. Compra plantas porque son hermosas, baratas, y mejoran tu estado emocional.
+
+El aire limpio viene de ventanas abiertas. La paz mental viene de plantas verdes en tu habitación.

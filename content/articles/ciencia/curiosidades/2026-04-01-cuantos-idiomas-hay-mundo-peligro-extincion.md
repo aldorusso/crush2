@@ -67,5 +67,3 @@ UNESCO marca idiomas en "peligro crítico." Algunos países invierten en educaci
 La realidad: los idiomas pequeños morirán. La pregunta es: ¿documenta mos suficientemente antes?
 
 ## Conclusión
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

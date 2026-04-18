@@ -23,30 +23,113 @@ featured: false
 breaking: false
 ---
 
-Tiempo en bloques: la técnica de productividad que usan los CEOs
+## La diferencia radical entre listas y bloques
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Una lista de tareas te dice QUÉ hacer. Un bloque de tiempo te dice CUÁNDO.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Ejemplo:
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+**Lista:**
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+- Escribir propuesta
+- Responder emails
+- Llamar a cliente
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+**Time blocking:**
 
-## Más sobre este tema
+- 9:00–10:30 am: Escribir propuesta (sin interrupciones)
+- 10:30–11:00 am: Responder emails
+- 11:00–11:30 am: Llamar a cliente
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Son las mismas tareas. Pero psicológicamente, el bloque es diferente.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Con la lista, estás jugando **"Qué hago ahora?"** constantemente. Es agotador.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Con bloques, estás en **piloto automático**. Sabes qué hacer. Solo hazlo.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+## Por qué funciona (la ciencia)
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+Tu cerebro gasta energía en "cambios de contexto." Mudar de tarea A a tarea B requiere establecer un nuevo contexto mental.
 
-## Conclusión
+Estudios muestran que cambiar tareas puede costar hasta **40 minutos** en recuperación mental (no es el cambio inmediato, sino la re-entrada en profundidad).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+El time blocking **minimiza el cambio de contexto**.
+
+Si tienes 9:00–10:30 bloqueado para escribir, tu cerebro tiene 90 minutos sin interrupciones. Puede profundizar. Puede olvidarse de todo lo demás.
+
+Comparado con una lista donde respondes emails a las 9:15, escribes 10 min, contestas un Slack a las 9:25, vuelves a escribir... tu cerebro nunca descansa.
+
+## Implementación básica
+
+**Paso 1: Inventario de tareas**
+
+¿Qué ocupan tus días? Listalas todas. Las recurrentes y las únicas.
+
+**Paso 2: Agrupa por tipo**
+
+- Reuniones
+- Trabajo creativo (escribir, diseño, codificar)
+- Administrativo (emails, papeleo)
+- Comunicación (llamadas, mensajes)
+
+**Paso 3: Asigna bloques en tu calendario**
+
+Abre Google Calendar o lo que uses. No escribas tareas. Bloquea tiempo:
+
+- 9:00–11:00 am: Trabajo creativo (el que requiere profundidad)
+- 11:00–12:00 pm: Administrativo
+- 12:00–1:00 pm: Almuerzo
+- 1:00–2:00 pm: Reuniones
+- 2:00–4:00 pm: Trabajo creativo (segundo turno)
+- 4:00–5:00 pm: Responder comunicación acumulada
+
+Esto es tu "plantilla." Luego ajustas según reuniones que surjan.
+
+**Paso 4: Protege los bloques**
+
+Aquí viene lo difícil: **no interrumpas tus propios bloques.**
+
+- Sin Slack durante bloques de trabajo.
+- Sin revisión de emails.
+- Sin "solo una llamada rápida."
+
+Si algo es urgente: interrumpe solo lo intercambiable (administrativo con trabajo creativo? No. Pero administrativo con administrativo? Quizás).
+
+## Variaciones avanzadas
+
+**Bloqueo por tarea específica (no genérica)**
+
+En lugar de "Administrativo 11–12," especifica:
+
+- 11:00–11:30: Responder emails (máx 30 min)
+- 11:30–12:00: Papeleo/ facturas
+
+Esto es más restrictivo pero más realista.
+
+**Bloqueo de "transición"**
+
+Entre bloques creativos, pon 5–10 min de "nada." Tu cerebro necesita descansar.
+
+**Bloqueo de "flex"**
+
+Un bloque sin contenido. Es tu "en caso de que surja algo" para mantener la flexibilidad.
+
+## Las trampas comunes
+
+**"Time blocking es muy rígido"**
+
+Es cierto. Pero la alternativa (listas infinitas + procrastinación) también es rígida, solo que mentalmente.
+
+**"No puedo predecir mi día"**
+
+Entonces particularmente necesitas time blocking. Sin estructura, los impredecibles te comen.
+
+**"Parece infantil"**
+
+Los CEOs de millonarias lo usan. No es infantil. Es efectivo.
+
+## La verdad
+
+El tiempo blocking no te hace más productivo. Te hace **menos reactivo**.
+
+La diferencia es importante: no generas más en menos tiempo. Pero tienes más períodos de enfoque profundo, y esos períodos tienen 100x el valor que trabajar disperso.
