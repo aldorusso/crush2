@@ -14,7 +14,13 @@ import { RelatedArticles } from "~/components/RelatedArticles";
 import { SmartImage } from "~/components/SmartImage";
 import { AdSlot } from "~/components/AdSlot";
 import { buildArticleSchema, buildBreadcrumbSchema, schemaToScript } from "~/lib/jsonld";
-import { buildOgArticle, buildTwitterCard, buildHreflang, buildRobotsMeta } from "~/lib/seo";
+import {
+  buildOgArticle,
+  buildTwitterCard,
+  buildHreflang,
+  buildRobotsMeta,
+  buildArticleExtraMeta,
+} from "~/lib/seo";
 import { injectAdsIntoArticle } from "~/lib/ads";
 import { ReadingProgress } from "~/components/ReadingProgress";
 import { ArticleDateTime } from "~/components/ArticleDateTime";
@@ -201,7 +207,7 @@ export const head: DocumentHead = ({ resolveValue }) => {
   const { article, author, category, subcategory } = data;
   const path = `/${article.category}/${article.subcategory}/${article.slug}/`;
 
-  const articleSchema = buildArticleSchema(article, author ?? undefined);
+  const articleSchema = buildArticleSchema(article, author ?? undefined, category?.name);
   const breadcrumbSchema = buildBreadcrumbSchema([
     { label: "Inicio", href: "/" },
     { label: category?.name ?? article.category, href: `/${article.category}/` },
@@ -214,6 +220,7 @@ export const head: DocumentHead = ({ resolveValue }) => {
 
   const absoluteUrl = `${SITE_URL}${path}`;
   const imageAlt = article.heroImage.alt || article.title;
+  const preloadSrcset = buildPicsumSrcset(article.heroImage.src);
 
   return {
     title: `${article.title} — crush.news`,
@@ -229,7 +236,7 @@ export const head: DocumentHead = ({ resolveValue }) => {
         publishedAt: article.publishedAt,
         updatedAt: article.updatedAt,
         author: author?.name ?? article.author,
-        section: article.category,
+        section: category?.name ?? article.category,
         tags: article.tags,
       }),
       ...buildTwitterCard({
@@ -238,7 +245,9 @@ export const head: DocumentHead = ({ resolveValue }) => {
         image: article.heroImage.src,
         imageAlt,
         url: absoluteUrl,
+        creator: author?.twitter,
       }),
+      ...buildArticleExtraMeta({ tags: article.tags }),
     ],
     links: [
       ...buildHreflang(path),
@@ -246,6 +255,12 @@ export const head: DocumentHead = ({ resolveValue }) => {
         rel: "preload",
         as: "image",
         href: article.heroImage.src,
+        ...(preloadSrcset
+          ? {
+              imagesrcset: preloadSrcset,
+              imagesizes: "(min-width: 768px) 768px, 100vw",
+            }
+          : {}),
         fetchpriority: "high",
       },
       {
@@ -264,3 +279,20 @@ export const head: DocumentHead = ({ resolveValue }) => {
     scripts: [schemaToScript(articleSchema), schemaToScript(breadcrumbSchema)],
   };
 };
+
+/**
+ * Returns a responsive srcset for picsum.photos seed URLs, matching what
+ * SmartImage renders in the <picture>. Returns null for non-picsum sources.
+ */
+function buildPicsumSrcset(src: string): string | null {
+  const m = /^(https:\/\/picsum\.photos\/seed\/[^/]+\/)(\d+)\/(\d+)$/.exec(src);
+  if (!m) return null;
+  const base = m[1] ?? "";
+  const origW = parseInt(m[2] ?? "1200", 10);
+  const origH = parseInt(m[3] ?? "675", 10);
+  const ratio = origH / origW;
+  return [400, 800, 1200, 1600]
+    .filter((w) => w <= origW + 200)
+    .map((w) => `${base}${w}/${Math.round(w * ratio)} ${w}w`)
+    .join(", ");
+}

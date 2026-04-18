@@ -21,6 +21,7 @@ export function buildOgArticle(params: {
   author: string;
   section: string;
   tags: string[];
+  isOpinion?: boolean;
 }) {
   return [
     { property: "og:type", content: "article" },
@@ -37,6 +38,8 @@ export function buildOgArticle(params: {
     { property: "article:modified_time", content: params.updatedAt },
     { property: "article:author", content: params.author },
     { property: "article:section", content: params.section },
+    { property: "article:content_tier", content: "free" },
+    { property: "article:opinion", content: params.isOpinion ? "true" : "false" },
     ...params.tags.map((t) => ({ property: "article:tag", content: t })),
     { name: "author", content: params.author },
   ];
@@ -48,15 +51,39 @@ export function buildTwitterCard(params: {
   image: string;
   imageAlt: string;
   url: string;
+  creator?: string;
 }) {
-  return [
+  const tags = [
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:title", content: params.title },
     { name: "twitter:description", content: params.description },
     { name: "twitter:image", content: params.image },
     { name: "twitter:image:alt", content: params.imageAlt },
     { name: "twitter:url", content: params.url },
+    { name: "twitter:domain", content: "crush.news" },
     { name: "twitter:site", content: "@crushnews" },
+  ];
+  if (params.creator) {
+    const handle = params.creator.startsWith("@") ? params.creator : `@${params.creator}`;
+    tags.push({ name: "twitter:creator", content: handle });
+  }
+  return tags;
+}
+
+export function buildArticleExtraMeta(params: {
+  tags: string[];
+  year?: number;
+}) {
+  const year = params.year ?? new Date().getUTCFullYear();
+  // News Keywords: up to 10 comma-separated, Google News reads these.
+  const keywords = params.tags.slice(0, 10).join(", ");
+  // Note: content-language http-equiv intentionally omitted; <html lang>
+  // serves the same purpose and Qwik's DocumentMeta doesn't emit http-equiv
+  // with the hyphen correctly in current dev output.
+  return [
+    { name: "keywords", content: keywords },
+    { name: "news_keywords", content: keywords },
+    { name: "copyright", content: `© ${year} ${SITE_NAME}` },
   ];
 }
 

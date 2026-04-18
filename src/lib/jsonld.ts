@@ -51,7 +51,11 @@ function stripHtml(html: string): string {
     .trim();
 }
 
-export function buildArticleSchema(article: Article, author?: Author) {
+export function buildArticleSchema(
+  article: Article,
+  author?: Author,
+  sectionName?: string,
+) {
   const articleUrl = `${SITE_URL}/${article.category}/${article.subcategory}/${article.slug}/`;
   const imageBase = article.heroImage.src;
 
@@ -59,12 +63,14 @@ export function buildArticleSchema(article: Article, author?: Author) {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: article.title,
+    alternativeHeadline: article.description,
     description: article.description,
     image: [
       imageBase,
       imageBase.replace("1200/675", "1200/1200"),
       imageBase.replace("1200/675", "1200/900"),
     ],
+    thumbnailUrl: imageBase,
     datePublished: article.publishedAt,
     dateModified: article.updatedAt,
     author: author
@@ -80,8 +86,9 @@ export function buildArticleSchema(article: Article, author?: Author) {
       name: SITE_NAME,
       logo: { "@type": "ImageObject", url: LOGO_URL, width: 600, height: 60 },
     },
+    isPartOf: { "@type": "CreativeWork", name: SITE_NAME, url: SITE_URL },
     mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
-    articleSection: article.category,
+    articleSection: sectionName ?? article.category,
     articleBody: stripHtml(article.body),
     keywords: article.tags.join(", "),
     inLanguage: "es-ES",
