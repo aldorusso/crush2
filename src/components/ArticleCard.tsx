@@ -15,9 +15,12 @@ export const ArticleCard = component$<Props>(
     const href = `/${article.category}/${article.subcategory}/${article.slug}/`;
 
     // ── Featured: full-bleed image with gradient overlay ──────────────────
+    // Drops aspect-video so the card can stretch to the grid row's height
+    // (the text columns next to it are usually taller). A min-height keeps
+    // the hero from collapsing when used on its own.
     if (variant === "featured") {
       return (
-        <article class="group relative aspect-video overflow-hidden rounded-xl">
+        <article class="group relative h-full min-h-[420px] overflow-hidden rounded-xl md:min-h-[480px]">
           <Link href={href} class="absolute inset-0 block" tabIndex={-1} aria-hidden="true">
             <SmartImage
               src={article.heroImage.src}
@@ -26,7 +29,7 @@ export const ArticleCard = component$<Props>(
               height={article.heroImage.height}
               loading={loading}
               class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-              sizes="(min-width: 1024px) 66vw, 100vw"
+              sizes="(min-width: 1024px) 50vw, 100vw"
             />
           </Link>
           {/* gradient */}
