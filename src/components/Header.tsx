@@ -12,11 +12,56 @@ function formatDateTime(d: Date): string {
 }
 
 const NAV_LINKS = [
-  { href: "/tecnologia/", label: "Tecnología" },
-  { href: "/estilo-de-vida/", label: "Estilo de vida" },
-  { href: "/ciencia/", label: "Ciencia" },
-  { href: "/viajes/", label: "Viajes" },
-  { href: "/cultura/", label: "Cultura" },
+  {
+    href: "/tecnologia/",
+    label: "Tecnología",
+    subs: [
+      { href: "/tecnologia/apps-y-servicios/", label: "Apps y Servicios" },
+      { href: "/tecnologia/inteligencia-artificial/", label: "Inteligencia Artificial" },
+      { href: "/tecnologia/gadgets/", label: "Gadgets" },
+      { href: "/tecnologia/cultura-digital/", label: "Cultura Digital" },
+    ],
+  },
+  {
+    href: "/estilo-de-vida/",
+    label: "Estilo de vida",
+    subs: [
+      { href: "/estilo-de-vida/productividad/", label: "Productividad" },
+      { href: "/estilo-de-vida/hogar/", label: "Hogar" },
+      { href: "/estilo-de-vida/relaciones/", label: "Relaciones" },
+      { href: "/estilo-de-vida/habitos/", label: "Hábitos" },
+    ],
+  },
+  {
+    href: "/ciencia/",
+    label: "Ciencia",
+    subs: [
+      { href: "/ciencia/el-porque-de-las-cosas/", label: "El Porqué de las Cosas" },
+      { href: "/ciencia/curiosidades/", label: "Curiosidades" },
+      { href: "/ciencia/cuerpo-humano/", label: "Cuerpo Humano" },
+      { href: "/ciencia/historia-de-la-ciencia/", label: "Historia de la Ciencia" },
+    ],
+  },
+  {
+    href: "/viajes/",
+    label: "Viajes",
+    subs: [
+      { href: "/viajes/guias-de-ciudad/", label: "Guías de Ciudad" },
+      { href: "/viajes/experiencias/", label: "Experiencias" },
+      { href: "/viajes/consejos-practicos/", label: "Consejos Prácticos" },
+      { href: "/viajes/descubrimientos/", label: "Descubrimientos" },
+    ],
+  },
+  {
+    href: "/cultura/",
+    label: "Cultura",
+    subs: [
+      { href: "/cultura/series-y-cine/", label: "Series y Cine" },
+      { href: "/cultura/musica/", label: "Música" },
+      { href: "/cultura/videojuegos/", label: "Videojuegos" },
+      { href: "/cultura/libros/", label: "Libros" },
+    ],
+  },
 ];
 
 export const Header = component$(() => {
@@ -73,10 +118,44 @@ export const Header = component$(() => {
               {NAV_LINKS.map((link) => {
                 const active = loc.url.pathname.startsWith(link.href);
                 return (
-                  <li key={link.href}>
-                    <Link href={link.href} class={["nav-link", active ? "active" : ""].join(" ")}>
+                  <li key={link.href} class="group relative">
+                    <Link
+                      href={link.href}
+                      class={[
+                        "nav-link inline-flex items-center gap-1",
+                        active ? "active" : "",
+                      ].join(" ")}
+                    >
                       {link.label}
+                      <svg
+                        width="10"
+                        height="10"
+                        viewBox="0 0 10 10"
+                        aria-hidden="true"
+                        class="opacity-50 transition-transform group-hover:rotate-180"
+                      >
+                        <path
+                          d="M1 3l4 4 4-4"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          fill="none"
+                          stroke-linecap="round"
+                        />
+                      </svg>
                     </Link>
+                    {/* Dropdown */}
+                    <ul class="pointer-events-none absolute top-full left-0 z-50 min-w-[180px] rounded-lg border border-[var(--border)] bg-[var(--surface)] py-1 opacity-0 shadow-lg transition-opacity duration-150 group-hover:pointer-events-auto group-hover:opacity-100">
+                      {link.subs.map((sub) => (
+                        <li key={sub.href}>
+                          <Link
+                            href={sub.href}
+                            class="block px-4 py-2 text-sm whitespace-nowrap text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--color-brand)]"
+                          >
+                            {sub.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
                   </li>
                 );
               })}
