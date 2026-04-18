@@ -27,7 +27,7 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "test:e2e": "playwright test",
-    "prepare": "node -e \"if(process.env.CI||process.env.NODE_ENV==='production')process.exit(0)\" && husky",
+    "prepare": "node -e \"if(!process.env.CI&&process.env.NODE_ENV!=='production')require('child_process').execSync('husky',{stdio:'inherit'})\"",
     "seed": "tsx scripts/seed-content.ts"
   },
   "lint-staged": {
