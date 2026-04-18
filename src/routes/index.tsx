@@ -5,9 +5,16 @@ import { ArticleCard } from "~/components/ArticleCard";
 import type { Article } from "~/lib/types";
 
 export const useHomeData = routeLoader$(() => {
-  const featured = getFeaturedArticles(5);
+  const featured = getFeaturedArticles(1);
   const allArticles = getContentIndex().articles;
-  const recent = allArticles.slice(0, 6);
+  const hero = featured[0];
+
+  // Three-pane hero: one big featured card, a text-only "Lo último" column,
+  // and a thumbnail "Destacados" column. Skip the hero slug in both lists so
+  // the same story never appears twice.
+  const filtered = hero ? allArticles.filter((a) => a.slug !== hero.slug) : allArticles;
+  const latest = filtered.slice(0, 5);
+  const picks = filtered.slice(5, 9);
 
   const cats = ["tecnologia", "ciencia", "estilo-de-vida", "viajes", "cultura"];
   const byCategory: Record<string, Article[]> = {};
@@ -15,7 +22,7 @@ export const useHomeData = routeLoader$(() => {
     byCategory[cat] = getArticlesByCategory(cat).slice(0, 4);
   }
 
-  return { featured, recent, byCategory };
+  return { hero, latest, picks, byCategory };
 });
 
 const CAT_LABELS: Record<string, string> = {
@@ -28,15 +35,13 @@ const CAT_LABELS: Record<string, string> = {
 
 export default component$(() => {
   const data = useHomeData();
-  const { featured, byCategory } = data.value;
-  const [hero, ...featuredRest] = featured;
+  const { hero, latest, picks, byCategory } = data.value;
 
   return (
     <div class="mx-auto max-w-7xl px-4 py-8">
-      {/* ── Hero / Portada ──────────────────────────────────────────────── */}
+      {/* ── Hero / Portada — three-pane layout ─────────────────────────── */}
       {hero && (
         <section aria-labelledby="featured-heading" class="mb-14">
-          {/* Editorial section label */}
           <div class="mb-4 flex items-center gap-4">
             <h2 id="featured-heading" class="section-heading-label shrink-0">
               Portada
@@ -44,20 +49,37 @@ export default component$(() => {
             <div class="h-px flex-1 bg-[var(--border)]" aria-hidden="true" />
           </div>
 
-          <div class="grid gap-6 lg:grid-cols-3">
-            {/* Hero card — full overlay */}
-            <div class="lg:col-span-2">
-              <ArticleCard article={hero} variant="featured" loading="eager" />
-            </div>
+          <div class="grid gap-6 lg:grid-cols-[2fr_1.25fr_1.25fr]">
+            {/* Pane 1 — featured */}
+            <ArticleCard article={hero} variant="featured" loading="eager" />
 
-            {/* Numbered sidebar */}
-            <div class="flex flex-col divide-y divide-[var(--border)]">
-              {featuredRest.slice(0, 3).map((a, i) => (
-                <div key={a.slug} class="py-4 first:pt-0 last:pb-0">
-                  <ArticleCard article={a} variant="horizontal" rank={i + 1} />
-                </div>
-              ))}
-            </div>
+            {/* Pane 2 — Lo último (text-only) */}
+            {latest.length > 0 && (
+              <div>
+                <h3 class="section-heading-label mb-4">Lo último</h3>
+                <ul class="divide-y divide-[var(--border)]">
+                  {latest.map((a) => (
+                    <li key={a.slug} class="py-3 first:pt-0 last:pb-0">
+                      <ArticleCard article={a} variant="text-only" />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Pane 3 — Destacados (thumbnails) */}
+            {picks.length > 0 && (
+              <div>
+                <h3 class="section-heading-label mb-4">Destacados</h3>
+                <ul class="divide-y divide-[var(--border)]">
+                  {picks.map((a) => (
+                    <li key={a.slug} class="py-3 first:pt-0 last:pb-0">
+                      <ArticleCard article={a} variant="horizontal" />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </section>
       )}

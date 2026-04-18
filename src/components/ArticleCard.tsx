@@ -5,7 +5,7 @@ import { SmartImage } from "~/components/SmartImage";
 
 interface Props {
   article: Article;
-  variant?: "vertical" | "horizontal" | "featured";
+  variant?: "vertical" | "horizontal" | "featured" | "text-only";
   loading?: "lazy" | "eager";
   rank?: number;
 }
@@ -47,6 +47,25 @@ export const ArticleCard = component$<Props>(
             </p>
             <ArticleMeta article={article} light />
           </div>
+        </article>
+      );
+    }
+
+    // ── Text-only: kicker + headline + meta, no image. Used in the
+    //    "Lo último" hero column for density above the fold.
+    if (variant === "text-only") {
+      return (
+        <article class="group">
+          <CategoryBadge category={article.category} subcategory={article.subcategory} />
+          <h3 class="font-display font-700 mt-1 text-[15px] leading-snug">
+            <Link
+              href={href}
+              class="line-clamp-3 transition-colors hover:text-[var(--color-brand-text)]"
+            >
+              {article.title}
+            </Link>
+          </h3>
+          <ArticleMeta article={article} compact />
         </article>
       );
     }
