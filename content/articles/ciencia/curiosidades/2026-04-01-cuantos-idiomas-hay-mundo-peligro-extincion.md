@@ -23,29 +23,48 @@ featured: false
 breaking: false
 ---
 
-Cuántos idiomas hay en el mundo y cuántos están en peligro
+## 7,000 idiomas. 1 cada 20 minutos muere.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Hay aproximadamente 7,000 idiomas hablados en el mundo hoy. Pero eso cae cada día.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Un idioma muere cada 20 minutos (aproximadamente). Si nada cambia, el 90% de los idiomas actuales desaparecerán en 100 años.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+## La distribución es brutal
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Hablantes de idiomas top-10: ~3.5 mil millones.
+Hablantes de los 7,000 idiomas restantes: ~3.5 mil millones.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+**Esto significa**: Mandarin, español, inglés, hindi, árabe, portugués, ruso, japonés, francés, alemán concentran el 50% de los hablantes del mundo.
 
-## Más sobre este tema
+Y los otros 6,990 idiomas se reparten el otro 50%.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Por qué mueren los idiomas
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+**Razón 1: Globalización**
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Padres enseñan a hijos el idioma "útil" (inglés, mandarín) en lugar del idioma de la comunidad. En 2-3 generaciones: muerto.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+**Razón 2: Presión económica**
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+Para obtener empleo en ciudad, necesitas hablar idioma dominante. El idioma local se convierte en "hobby de abuelos."
+
+**Razón 3: Falta de escritura**
+
+Muchos idiomas nunca se escribieron. Solo oral. Cuando la comunidad se dispersa: muerto.
+
+## Qué se pierde cuando un idioma muere
+
+No es solo "palabras." Es cosmovisión completa.
+
+El idioma Pirahã (Brasil) no tiene números. Su gramática refleja cómo la comunidad ve el tiempo (diferente a la nuestra). Su léxico categoriza plantas de formas que la botánica occidental nunca documentó.
+
+Cuando muere un idioma, muere una forma de pensar.
+
+## Qué se hace al respecto
+
+UNESCO marca idiomas en "peligro crítico." Algunos países invierten en educación bilingüe. Pero es batalla perdida sin recursos.
+
+La realidad: los idiomas pequeños morirán. La pregunta es: ¿documenta mos suficientemente antes?
 
 ## Conclusión
 

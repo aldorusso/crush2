@@ -23,29 +23,39 @@ featured: false
 breaking: false
 ---
 
-El experimento de Stanford que cambió la psicología para siempre
+## La simulación que demostró demasiado
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+1971. Sótano de Stanford. Dos grupos: guardias y prisioneros. Duración: 2 semanas. Resultado: caos en 36 horas.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+El experimento carcelario de Stanford es probablemente el más famoso (y controvertido) de la psicología moderna. Philip Zimbardo lo diseñó para demostrar cómo la situación (no la personalidad) determina el comportamiento.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+## Qué pasó
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+**Los "guardias"** rápidamente adoptaron roles represivos. Arrogancia. Arbitrariedad. Humillación.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+**Los "prisioneros"** internalizaron la opresión. Reb elión inicial, luego sumisión total.
 
-## Más sobre este tema
+Conclusión (aparente): Las personas son maleables. El poder corrompe. La situación vence la personalidad.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## El problema: fue teatro, no ciencia
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+40+ años después, investigadores descubrieron que Zimbardo _indujo_ los comportamientos. Instruyó a los guardias para ser represivos. Los prisioneros obedecieron porque pensaban que era el "rol esperado."
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+No fue un descubrimiento natural del comportamiento humano. Fue una actuación.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Más: algunos guardias reportaron que Zimbardo _quería_ que fuera caótico, así que escalaron.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+## Por qué importa el fraude
+
+El experimento de Stanford es enseñado como "evidencia" de que las personas son disposables a la crueldad. Se usó para justificar... prácticamente cualquier cosa.
+
+Pero fue falso.
+
+## La lección verdadera
+
+No "las personas son naturalmente crueles cuando tienen poder."
+
+La lección verdadera: **los científicos pueden sesgarse hacía sus propias hipótesis.** Zimbardo quería demostrar algo. Lo demostró. Convenientemente.
 
 ## Conclusión
 

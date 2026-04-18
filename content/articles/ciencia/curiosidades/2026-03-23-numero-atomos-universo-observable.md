@@ -23,30 +23,38 @@ featured: false
 breaking: false
 ---
 
-El número de átomos en el universo observable y por qué importa saberlo
+## El número más grande que tiene sentido
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+10 a la 80. Es decir, 1 seguido de 80 ceros.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Ese es el número aproximado de átomos en el universo observable. Se llama "número de Eddington" en honor al astrofísico que lo calculó.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+¿Cómo llegamos a eso?
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+## El cálculo (simplificado)
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+Volumen del universo observable: 10^80 metros cúbicos (aproximadamente).
 
-## Más sobre este tema
+Densidad promedio de materia en el universo: 1 átomo por metro cúbico (es muy, muy vacío).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Átomos por metro cúbico en lugares densos (galaxias): muchísimos más, pero el promedio es bajo.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Resultado: ~10^80 átomos.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+## Por qué importa este número
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+**Para la física:** Es una constante fundamental. Cuando los físicos hablan de "escalas del universo," usan este número como referencia.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+**Para la filosofía:** Es incomprensible. Tu cerebro no puede visualizar 10^80. No hay comparación útil. Es simplemente: _enorme más allá de enorme_.
 
-## Conclusión
+**Para la humildad:** Hay más átomos en el universo que granos de arena en todas las playas de la Tierra. Y la mayoría de esos átomos son hidrógeno en el espacio vacío. Nosotros (hechos de átomos) somos una anomalía estadística.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Curiosidad: los átomos en tu cuerpo
+
+Tú tienes aproximadamente 10^28 átomos en tu cuerpo.
+
+Eso significa que hay aproximadamente 10^52 versiones de ti (en términos de masa atómica) en el universo observable.
+
+O dicho de otro modo: eres una parte en 10^52 del universo.
+
+Hermoso. Aterrador. Exacto.
