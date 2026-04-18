@@ -38,6 +38,19 @@ export function buildOrganizationSchema() {
   };
 }
 
+function stripHtml(html: string): string {
+  return html
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 export function buildArticleSchema(article: Article, author?: Author) {
   const articleUrl = `${SITE_URL}/${article.category}/${article.subcategory}/${article.slug}/`;
   const imageBase = article.heroImage.src;
@@ -69,9 +82,18 @@ export function buildArticleSchema(article: Article, author?: Author) {
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
     articleSection: article.category,
+    articleBody: stripHtml(article.body),
     keywords: article.tags.join(", "),
     inLanguage: "es-ES",
     isAccessibleForFree: true,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      xpath: [
+        "/html/head/title",
+        "/html/head/meta[@name='description']/@content",
+        "/html/body//h1",
+      ],
+    },
   };
 }
 

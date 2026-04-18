@@ -17,6 +17,9 @@ import { buildArticleSchema, buildBreadcrumbSchema, schemaToScript } from "~/lib
 import { buildOgArticle, buildTwitterCard, buildHreflang, buildRobotsMeta } from "~/lib/seo";
 import { injectAdsIntoArticle } from "~/lib/ads";
 import { ReadingProgress } from "~/components/ReadingProgress";
+import { ArticleDateTime } from "~/components/ArticleDateTime";
+
+const SITE_URL = "https://crush.news";
 
 export const useArticleData = routeLoader$(({ params, status }) => {
   const article = getArticleByPath(
@@ -53,12 +56,6 @@ export default component$(() => {
   }
 
   const { article, author, related, category, subcategory } = data.value;
-
-  const publishDate = new Date(article.publishedAt).toLocaleDateString("es-ES", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
 
   const updateDate = new Date(article.updatedAt).toLocaleDateString("es-ES", {
     year: "numeric",
@@ -122,7 +119,7 @@ export default component$(() => {
                 </a>
               </div>
             )}
-            <span class="text-sm text-[var(--text-muted)]">{publishDate}</span>
+            <ArticleDateTime iso={article.publishedAt} class="text-sm text-[var(--text-muted)]" />
             <span class="text-sm text-[var(--text-muted)]">
               {article.readingTime} min de lectura
             </span>
@@ -215,6 +212,9 @@ export const head: DocumentHead = ({ resolveValue }) => {
     { label: article.title },
   ]);
 
+  const absoluteUrl = `${SITE_URL}${path}`;
+  const imageAlt = article.heroImage.alt || article.title;
+
   return {
     title: `${article.title} — crush.news`,
     meta: [
@@ -224,6 +224,8 @@ export const head: DocumentHead = ({ resolveValue }) => {
         title: article.title,
         description: article.description,
         image: article.heroImage.src,
+        imageAlt,
+        url: absoluteUrl,
         publishedAt: article.publishedAt,
         updatedAt: article.updatedAt,
         author: author?.name ?? article.author,
@@ -234,9 +236,31 @@ export const head: DocumentHead = ({ resolveValue }) => {
         title: article.title,
         description: article.description,
         image: article.heroImage.src,
+        imageAlt,
+        url: absoluteUrl,
       }),
     ],
-    links: buildHreflang(path),
+    links: [
+      ...buildHreflang(path),
+      {
+        rel: "preload",
+        as: "image",
+        href: article.heroImage.src,
+        fetchpriority: "high",
+      },
+      {
+        rel: "alternate",
+        type: "application/rss+xml",
+        title: `crush.news — ${category?.name ?? article.category}`,
+        href: `/rss/${article.category}.xml`,
+      },
+      {
+        rel: "alternate",
+        type: "application/rss+xml",
+        title: "crush.news",
+        href: "/rss.xml",
+      },
+    ],
     scripts: [schemaToScript(articleSchema), schemaToScript(breadcrumbSchema)],
   };
 };

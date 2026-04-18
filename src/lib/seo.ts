@@ -13,6 +13,9 @@ export function buildOgArticle(params: {
   title: string;
   description: string;
   image: string;
+  imageAlt: string;
+  imageType?: string;
+  url: string;
   publishedAt: string;
   updatedAt: string;
   author: string;
@@ -24,7 +27,10 @@ export function buildOgArticle(params: {
     { property: "og:site_name", content: SITE_NAME },
     { property: "og:title", content: params.title },
     { property: "og:description", content: params.description },
+    { property: "og:url", content: params.url },
     { property: "og:image", content: params.image },
+    { property: "og:image:alt", content: params.imageAlt },
+    { property: "og:image:type", content: params.imageType ?? "image/jpeg" },
     { property: "og:image:width", content: "1200" },
     { property: "og:image:height", content: "675" },
     { property: "article:published_time", content: params.publishedAt },
@@ -32,6 +38,7 @@ export function buildOgArticle(params: {
     { property: "article:author", content: params.author },
     { property: "article:section", content: params.section },
     ...params.tags.map((t) => ({ property: "article:tag", content: t })),
+    { name: "author", content: params.author },
   ];
 }
 
@@ -39,12 +46,16 @@ export function buildTwitterCard(params: {
   title: string;
   description: string;
   image: string;
+  imageAlt: string;
+  url: string;
 }) {
   return [
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:title", content: params.title },
     { name: "twitter:description", content: params.description },
     { name: "twitter:image", content: params.image },
+    { name: "twitter:image:alt", content: params.imageAlt },
+    { name: "twitter:url", content: params.url },
     { name: "twitter:site", content: "@crushnews" },
   ];
 }
