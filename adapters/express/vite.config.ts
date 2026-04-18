@@ -23,6 +23,5 @@ export default defineConfig(() => ({
   ssr: {
     target: "node",
     format: "esm",
-    noExternal: /./,
   },
 }));
