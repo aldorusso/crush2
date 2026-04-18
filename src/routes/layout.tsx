@@ -4,6 +4,7 @@ import { Header } from "~/components/Header";
 import { Footer } from "~/components/Footer";
 import { AdSlot } from "~/components/AdSlot";
 import { CookieBanner } from "~/components/CookieBanner";
+import { Analytics } from "~/components/Analytics";
 
 export const useThemeCookie = routeLoader$(({ cookie }) => {
   return cookie.get("theme")?.value ?? "light";
@@ -36,6 +37,7 @@ export default component$(() => {
         <AdSlot slotId="anchor-bottom" lazy={false} />
       </div>
       <CookieBanner hasConsent={hasConsent.value} />
+      <Analytics />
     </div>
   );
 });
