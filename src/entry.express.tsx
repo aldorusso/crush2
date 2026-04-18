@@ -25,7 +25,7 @@ app.use((req, res, next) => {
     res.setHeader("Strict-Transport-Security", "max-age=31536000; includeSubDomains; preload");
   }
   // CSP — unsafe-inline required for Qwik resumability scripts.
-  // Ad domains pre-listed; activate when AdSense is approved (Phase 9).
+  // AdSense active: ca-pub-3992058202623173
   res.setHeader(
     "Content-Security-Policy",
     [

@@ -53,7 +53,12 @@ export const AuthorBox = component$<Props>(({ author, compact }) => {
             {author.name}
           </Link>
           <p class="text-sm text-[var(--text-muted)]">{author.role}</p>
-          <p class="mt-3 text-sm leading-relaxed text-[var(--text)]">{author.bio.slice(0, 220)}…</p>
+          {author.bio && (
+            <p class="mt-3 text-sm leading-relaxed text-[var(--text)]">
+              {author.bio.slice(0, 220)}
+              {author.bio.length > 220 ? "…" : ""}
+            </p>
+          )}
           <Link
             href={`/autor/${author.slug}/`}
             class="mt-2 inline-block text-sm font-medium text-[var(--color-brand)] hover:underline"

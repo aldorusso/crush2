@@ -49,8 +49,10 @@ export function loadArticles(): Article[] {
 export function loadAuthors(): Author[] {
   const files = walkDir(join(CONTENT_DIR, "authors"));
   return files.map((filePath) => {
-    const { data } = readMarkdown<AuthorFrontmatter>(filePath);
-    return { ...data, filePath };
+    const raw = readFileSync(filePath, "utf-8");
+    const { data, content } = matter(raw);
+    const fm = data as AuthorFrontmatter;
+    return { ...fm, bio: fm.bio ?? content.trim(), filePath };
   });
 }
 

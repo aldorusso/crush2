@@ -33,39 +33,54 @@ export default component$(() => {
 
   return (
     <div class="mx-auto max-w-7xl px-4 py-8">
+      {/* ── Hero / Portada ──────────────────────────────────────────────── */}
       {hero && (
-        <section aria-labelledby="featured-heading" class="mb-12">
-          <h2 id="featured-heading" class="sr-only">
-            Artículos destacados
-          </h2>
+        <section aria-labelledby="featured-heading" class="mb-14">
+          {/* Editorial section label */}
+          <div class="mb-4 flex items-center gap-4">
+            <h2 id="featured-heading" class="section-heading-label shrink-0">
+              Portada
+            </h2>
+            <div class="h-px flex-1 bg-[var(--border)]" aria-hidden="true" />
+          </div>
+
           <div class="grid gap-6 lg:grid-cols-3">
+            {/* Hero card — full overlay */}
             <div class="lg:col-span-2">
               <ArticleCard article={hero} variant="featured" loading="eager" />
             </div>
-            <div class="flex flex-col gap-4">
-              {featuredRest.slice(0, 3).map((a) => (
-                <ArticleCard key={a.slug} article={a} variant="horizontal" />
+
+            {/* Numbered sidebar */}
+            <div class="flex flex-col divide-y divide-[var(--border)]">
+              {featuredRest.slice(0, 3).map((a, i) => (
+                <div key={a.slug} class="py-4 first:pt-0 last:pb-0">
+                  <ArticleCard article={a} variant="horizontal" rank={i + 1} />
+                </div>
               ))}
             </div>
           </div>
         </section>
       )}
 
+      {/* ── Category sections ──────────────────────────────────────────── */}
       {Object.entries(byCategory).map(([slug, articles]) =>
         articles.length === 0 ? null : (
-          <section key={slug} aria-labelledby={`cat-${slug}`} class="mb-12">
-            <div class="mb-5 flex items-baseline justify-between">
-              <h2 id={`cat-${slug}`} class="font-display font-700 text-2xl">
+          <section key={slug} aria-labelledby={`cat-${slug}`} class="mb-14">
+            {/* Editorial section heading with rule */}
+            <div class="mb-6 flex items-center gap-4">
+              <h2 id={`cat-${slug}`} class="section-heading-label shrink-0">
                 {CAT_LABELS[slug] ?? slug}
               </h2>
+              <div class="h-px flex-1 bg-[var(--border)]" aria-hidden="true" />
               <a
                 href={`/${slug}/`}
-                class="text-sm font-medium text-[var(--color-brand)] hover:underline"
+                class="shrink-0 text-[11px] font-semibold tracking-[0.1em] text-[var(--text-muted)] uppercase transition-colors hover:text-[var(--color-brand)]"
               >
                 Ver todo →
               </a>
             </div>
-            <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {articles.map((a) => (
                 <ArticleCard key={a.slug} article={a} />
               ))}

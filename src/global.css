@@ -85,6 +85,7 @@ h4 {
   font-family: var(--font-display);
   line-height: 1.2;
   font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 a {
@@ -143,6 +144,60 @@ img {
 }
 
 .prose strong {
+  font-weight: 600;
+}
+
+/* ── Editorial section headings ──────────────────────────── */
+
+.section-heading-label {
+  font-family: var(--font-display);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-brand);
+  white-space: nowrap;
+  padding-left: 10px;
+  border-left: 3px solid var(--color-brand);
+  line-height: 1;
+}
+
+/* ── Nav underline animation ──────────────────────────────── */
+
+.nav-link {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: color 200ms;
+  color: var(--text-muted);
+}
+
+.nav-link:hover {
+  color: var(--text);
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--color-brand);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 200ms ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  transform: scaleX(1);
+}
+
+.nav-link.active {
+  color: var(--text);
   font-weight: 600;
 }
 

@@ -25,6 +25,12 @@ export default component$(() => {
           crossOrigin="anonymous"
         />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        {/* AdSense Auto Ads — loaded async, after Consent Mode defaults above */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3992058202623173"
+          crossOrigin="anonymous"
+        />
       </head>
       <body lang="es">
         <RouterOutlet />

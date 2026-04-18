@@ -14,6 +14,7 @@ import { AdSlot } from "~/components/AdSlot";
 import { buildArticleSchema, buildBreadcrumbSchema, schemaToScript } from "~/lib/jsonld";
 import { buildOgArticle, buildTwitterCard, buildHreflang, buildRobotsMeta } from "~/lib/seo";
 import { injectAdsIntoArticle } from "~/lib/ads";
+import { ReadingProgress } from "~/components/ReadingProgress";
 
 export const useArticleData = routeLoader$(({ params, status }) => {
   const article = getArticleByPath(
@@ -68,6 +69,7 @@ export default component$(() => {
 
   return (
     <div class="mx-auto max-w-7xl px-4 py-8">
+      <ReadingProgress />
       <div class="mx-auto max-w-3xl">
         <Breadcrumbs
           crumbs={[

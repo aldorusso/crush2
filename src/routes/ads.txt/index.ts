@@ -1,8 +1,7 @@
 import type { RequestHandler } from "@builder.io/qwik-city";
 
 export const onGet: RequestHandler = ({ send }) => {
-  // Replace pub-XXXXXXXXXXXXXXXX with real publisher ID when AdSense is approved
-  const content = `google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0\n`;
+  const content = `google.com, ca-pub-3992058202623173, DIRECT, f08c47fec0942fa0\n`;
 
   send(
     new Response(content, {
