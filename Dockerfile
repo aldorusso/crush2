@@ -11,7 +11,7 @@ RUN pnpm install --frozen-lockfile
 FROM base AS builder
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-RUN pnpm build && pnpm build.server
+RUN pnpm build
 
 # ── Lean production image ──────────────────────────────────────────────────
 FROM base AS runner
