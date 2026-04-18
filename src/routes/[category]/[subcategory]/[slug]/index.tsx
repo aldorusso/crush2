@@ -55,6 +55,17 @@ export default component$(() => {
     day: "numeric",
   });
 
+  const updateDate = new Date(article.updatedAt).toLocaleDateString("es-ES", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+
+  // Show correction notice if article was meaningfully updated (>24h after publish)
+  const wasUpdated =
+    new Date(article.updatedAt).getTime() - new Date(article.publishedAt).getTime() >
+    24 * 60 * 60 * 1000;
+
   return (
     <div class="mx-auto max-w-7xl px-4 py-8">
       <div class="mx-auto max-w-3xl">
@@ -111,6 +122,19 @@ export default component$(() => {
             </span>
           </div>
         </header>
+
+        {wasUpdated && (
+          <div class="mb-6 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm dark:border-amber-800 dark:bg-amber-950">
+            <strong class="font-semibold text-amber-800 dark:text-amber-200">Actualización:</strong>{" "}
+            <span class="text-amber-700 dark:text-amber-300">
+              Este artículo fue actualizado el {updateDate}. Consulta nuestra{" "}
+              <a href="/legal/correcciones/" class="underline underline-offset-2">
+                política de correcciones
+              </a>
+              .
+            </span>
+          </div>
+        )}
 
         <figure class="mb-8">
           <SmartImage
