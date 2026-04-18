@@ -23,30 +23,51 @@ featured: false
 breaking: false
 ---
 
-La economía de la atención: por qué las redes sociales están diseñadas para engancharte
+## El producto eres tú, pero más específicamente: tu tiempo
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+En 1971, Herbert Simon escribió algo que describe perfectamente el siglo XXI: "La riqueza de la información crea pobreza de atención." Era economista y lo dijo antes de que existiera internet.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+La lógica es simple y brutal: si la información es abundante y gratuita, lo escaso es la atención que se le presta. Y lo escaso es lo que tiene valor. Cada plataforma digital compite por lo mismo: los minutos que tienes en el día.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+La atención se vende a anunciantes. El mecanismo de extracción son los diseños persuasivos.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+## La máquina tragaperras que tienes en el bolsillo
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+B.F. Skinner demostró en los años 50 algo perturbador: los animales desarrollan comportamientos compulsivos más fácilmente con recompensas aleatorias que con recompensas predecibles.
 
-## Más sobre este tema
+Una paloma que recibe comida cada vez que pulsa una palanca aprende rápido y para cuando está saciada. Una paloma que recibe comida de forma aleatoria —a veces sí, a veces no— pulsa la palanca de manera obsesiva. No sabe cuándo vendrá la recompensa, así que no para.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Esto tiene un nombre técnico: refuerzo de variable ratio. Y es el principio de diseño de las máquinas tragaperras. Y del scroll en redes sociales.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Cuando haces scroll en Instagram o TikTok, no sabes lo que vas a encontrar. A veces es algo que te emociona. A veces es aburrido. Esa incertidumbre —la posibilidad de que el siguiente post sea el bueno— es lo que mantiene el dedo moviéndose.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Tristan Harris, exdiseñador de Google que se convirtió en uno de los críticos más articulados de la industria, lo describió así en 2017: "Un billón de personas tienen en el bolsillo una máquina tragaperras."
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+## Las técnicas concretas
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+**Scroll infinito**: inventado por Aza Raskin en 2006. Él mismo se arrepintió públicamente. La página nunca termina, nunca hay un punto de parada natural. En un libro físico o una revista, la página acaba y tienes que hacer una elección activa. El scroll infinito elimina esa fricción.
 
-## Conclusión
+**Notificaciones**: diseñadas para crear urgencia. El punto rojo en el icono activa el mismo circuito neurológico que una señal de alerta. Las plataformas pueden calibrar la frecuencia y el tipo de notificaciones para maximizar aperturas de app.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Likes como validación social**: el contador de likes es la recompensa variable aplicada a la creación de contenido. Publicas algo y esperas. ¿Cuántos habrá? La espera genera anticipación. Las plataformas retrasaron artificialmente la visibilidad de likes al principio para intensificar ese efecto.
+
+**Autoplay**: YouTube, Netflix y TikTok continúan automáticamente. El siguiente video empieza antes de que hayas decidido si quieres verlo. La inercia hace el resto.
+
+**Streak y gamificación**: Duolingo lleva esto al extremo, pero Twitter/X también usa insignias y elementos de gamificación. El streak crea pérdida potencial (si no entras, pierdes la racha), que psicológicamente es más motivador que la ganancia.
+
+## Por qué "simplemente no lo uses" no funciona
+
+Estas técnicas no explotan debilidades de personas poco inteligentes o poco disciplinadas. Explotan mecanismos evolutivos que todos los humanos tienen: búsqueda de novedad, validación social, aversión a la pérdida.
+
+Los ingenieros que diseñan estos sistemas son algunos de los mejores del mundo, trabajan con datos de comportamiento de miles de millones de personas, y optimizan continuamente. "Tener fuerza de voluntad" es enfrentar eso sin herramientas.
+
+## Lo que sí funciona
+
+Reducir la fricción del abandono y aumentar la fricción del inicio:
+
+- Eliminar apps del teléfono y acceder desde navegador (más lento, más consciente).
+- Desactivar todas las notificaciones excepto mensajes directos.
+- Usar extensiones que oculten el feed principal (News Feed Eradicator para Chrome).
+- Establecer límites de tiempo en el sistema operativo, no en la app.
+
+El objetivo no es eliminar las redes sociales. Es recuperar la elección activa sobre cuándo y por qué las usas, en lugar de entrar por inercia cada vez que tienes 30 segundos libres.

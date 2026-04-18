@@ -23,30 +23,52 @@ featured: true
 breaking: false
 ---
 
-Por qué The Wire sigue siendo la mejor serie de televisión jamás hecha
+## El argumento que más se repite y más se equivoca
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+"The Wire es lenta al principio." Esta frase la dicen personas que no entendieron qué estaban viendo.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+The Wire no construye tensión narrativa de episodio en episodio como Breaking Bad. No tiene giros de guión que te dejen con la mandíbula en el suelo. Lo que tiene es algo mucho más difícil de lograr y mucho más difícil de encontrar: un retrato sistémico de cómo las instituciones fallan a las personas que dependen de ellas.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Si llegas a la serie buscando acción policial, te parece lenta. Si llegas entendiendo que es una novela victoriana filmada sobre el declive de una ciudad industrial americana, no puedes parar.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+## De dónde viene: David Simon en las calles de Baltimore
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+David Simon fue periodista del Baltimore Sun durante doce años, cubriendo la sección de crimen. En 1991 publicó "Homicide: A Year on the Killing Streets", un año pasado con la brigada de homicidios de Baltimore. En 1997, con Ed Burns (exdetective de Baltimore), publicó "The Corner", sobre una familia atrapada en la economía de la droga en una esquina concreta de la ciudad.
 
-## Más sobre este tema
+The Wire es la síntesis de ese material. No es ficción inventada desde cero. Es periodismo recodificado como drama televisivo. Muchos personajes tienen referentes reales. Muchos diálogos están extraídos de transcripciones reales de escuchas policiales. La verosimilitud de los procedimientos, el lenguaje, la jerarquía de las organizaciones de tráfico: todo está documentado.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Eso explica por qué nada en The Wire se parece a ninguna otra serie policial.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+## Las cinco temporadas, las cinco instituciones
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+La decisión de diseño más audaz de la serie: cada temporada amplía el foco a una institución diferente.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+**Temporada 1 — La droga y la policía**: el foco más clásico. La brigada de McNulty intentando derribar la organización de Avon Barksdale. Introduce el argumento central: la policía está tan atrapada en sus propias métricas y burocracias como los traficantes en la suya.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+**Temporada 2 — El puerto**: la industria manufacturera que muere. Los estibadores del puerto de Baltimore como clase trabajadora en declive. La droga como síntoma, no como causa.
 
-## Conclusión
+**Temporada 3 — La política**: Tommy Carcetti corrompido por el sistema antes de tener el poder para cambiarlo. Y "Hamsterdam": el experimento del Mayor Colvin legalizando de facto la droga en tres manzanas para reducir el crimen. Lo que dice sobre las políticas de drogas es devastador.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Temporada 4 — Las escuelas**: la temporada más dolorosa. Cuatro niños de 8º grado como protagonistas. El sistema escolar que convierte a la pobreza en destino. Los mecanismos exactos por los que un niño con capacidades termina en la calle.
+
+**Temporada 5 — Los medios de comunicación**: el Baltimore Sun deteriorándose bajo recortes y métricas de audiencia. Un periodista que fabrica noticias. La institución que debería vigilar a las otras, incapaz de hacerlo.
+
+## Por qué los personajes no son héroes ni villanos
+
+Omar es uno de los personajes más queridos de la televisión americana: un hombre que roba a traficantes de droga, tiene un código de honor estricto, es abiertamente gay en un entorno que lo haría imposible, y es a la vez románticamente valiente y objetivamente violento.
+
+Stringer Bell estudia economía en el community college por las noches, aplica management moderno a su organización criminal, y es más articulado sobre las fuerzas del mercado que sus socios. También es capaz de ordenar muertes sin pestañear.
+
+McNulty es el mejor detective de la brigada y un padre pésimo, alcohólico y egocéntrico.
+
+La serie no juzga a sus personajes. Los coloca en sus sistemas y observa. La pregunta no es "¿por qué este hombre hace cosas malas?" sino "¿qué condiciones producen inevitablemente estas decisiones?"
+
+## Lo que ninguna serie ha igualado
+
+The Wire terminó en 2008. En los 18 años transcurridos, la televisión ha producido Breaking Bad, Mad Men, Succession, The Sopranos (anterior), Game of Thrones, y docenas de series más aclamadas.
+
+Ninguna tiene la misma densidad de argumento sistémico. Breaking Bad es una tragedia personal brillantísima. The Sopranos es psicología del poder. Succession es comedia de costumbres. Son grandes series.
+
+The Wire hace algo diferente: usa la ficción para hacer periodismo. Para decir que el problema no son las personas malas sino las instituciones que producen esas personas. Para mostrar, con nombres y caras y 60 horas de narrativa, cómo funciona exactamente esa producción.
+
+No ha envejecido. Ha envejecido mejor que la mayoría de noticias sobre las mismas ciudades en el mismo período.

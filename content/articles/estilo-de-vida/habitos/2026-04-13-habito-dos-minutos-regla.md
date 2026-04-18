@@ -23,30 +23,56 @@ featured: false
 breaking: false
 ---
 
-El hábito de las dos minutos: la regla que cambia todo
+## La regla más simple del GTD (y la más ignorada)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+David Allen publicó "Getting Things Done" en 2001. El libro tiene cientos de páginas sobre sistemas de organización personal, flujos de captura, revisiones semanales, y contextos de acción. La mayoría de la gente que conoce el método recuerda una sola cosa: la regla de los dos minutos.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+La regla dice: si una tarea requiere menos de dos minutos para completarse, hazla ahora mismo. No la captures en tu sistema. No la agendas. La haces.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Parece trivial. No lo es.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+## Por qué el coste de aplazar pequeñas tareas es enorme
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+El cerebro no trata las tareas pendientes como archivos pasivos en un cajón. Las mantiene activas. Cada tarea que sabes que tienes que hacer ocupa un pequeño espacio en lo que los psicólogos cognitivos llaman "carga cognitiva": la cantidad de información que tu memoria de trabajo está procesando en segundo plano.
 
-## Más sobre este tema
+Una tarea de 90 segundos que llevas tres días aplazando te está costando más energía mental que si la hubieras hecho el primer día.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Además, hay overhead de gestión: capturar la tarea, revisarla en tu sistema, decidir cuándo hacerla, recordarla cuando llegue el momento. Para una tarea que dura 90 segundos, ese proceso puede fácilmente costar el doble de tiempo y mucho más energía que la propia tarea.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+## Lo que realmente cambia cuando lo aplicas
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+Hay un efecto secundario que Allen no menciona explícitamente pero que cualquiera que lleva semanas aplicando la regla describe igual: la sensación de que las cosas pequeñas dejan de acumularse.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Las bandejas de correo que se llenan de mensajes que "hay que responder rápido" se vacían. La lista de tareas domésticas breves que nunca llega a verse porque siempre hay algo más urgente deja de existir como lista. Los recordatorios que añades al teléfono para cosas que duran un minuto desaparecen.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+No porque hayas mejorado tu sistema. Sino porque ejecutas en lugar de gestionar.
 
-## Conclusión
+## El truco de aplicación que la mayoría no hace
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+La regla de los dos minutos funciona si y solo si la aplicas en el momento de procesar una tarea, no después.
+
+El flujo correcto:
+
+1. Te llega un correo que requiere una respuesta breve.
+2. Lo abres, calculas: ¿menos de dos minutos?
+3. Si sí: lo respondes ahora. No lo marcas como no leído para "después."
+
+El error más común: leer el correo, pensar "es rápido, lo hago luego", cerrarlo, y añadirlo a la lista mental de cosas pendientes. En ese caso no has aplicado la regla, has aplazado de todas formas.
+
+La regla requiere un acto de voluntad en el momento: decidir interrumpir lo que estás haciendo para completar la tarea breve. Si estás en flujo profundo en un trabajo importante, la interrupción no vale la pena. Ahí la regla se aplica con matices.
+
+## Cuándo NO aplicarla
+
+La regla tiene un límite que a veces se ignora: el contexto importa.
+
+Si estás en un periodo de trabajo profundo y concentrado, interrumpirte para responder un WhatsApp de 90 segundos te cuesta el tiempo de recuperar el foco (estudios hablan de 15-23 minutos para volver al estado de flujo). En ese caso, aplaza la tarea breve a un bloque de "pequeñas tareas" al final del día.
+
+La regla de los dos minutos es para el procesamiento de tu bandeja de entrada, física o digital: el momento en que decides qué hacer con algo que ha llegado. No para interrumpir trabajo importante.
+
+## El principio detrás del principio
+
+Lo que hace funcionar la regla no es que dos minutos sea un umbral mágico. Es que obliga a tomar una decisión en el momento en lugar de diferirla.
+
+La procrastinación no es solo evitar tareas difíciles. Es también evitar la decisión de qué hacer con cada cosa que llega. La regla de los dos minutos elimina esa decisión para todo lo que es breve: la respuesta es siempre la misma, hacerlo ya.
+
+Esa automatización de la decisión es lo que reduce la carga cognitiva, no la tarea en sí.
