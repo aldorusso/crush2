@@ -23,30 +23,42 @@ featured: false
 breaking: false
 ---
 
-Cómo usar Claude para trabajar mejor: guía práctica
+## El problema con los tutoriales de prompts que existen
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+La mayoría de guías de "cómo usar la IA" se centran en trucos: "escribe 'eres un experto en X'" o "pídele que piense paso a paso". Estos tips funcionan a medias y no explican por qué.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+Lo más útil es entender qué hace bien Claude, qué hace mal, y cómo estructurar lo que pides para obtener el resultado que quieres.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+## En qué brilla especialmente
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+**Análisis de texto largo**: puedes pegar un contrato, un informe de 50 páginas, o un hilo de correos de dos semanas y pedir un resumen, una lista de puntos de acción, o análisis de riesgos. La ventana de contexto de 200k tokens (Claude Sonnet) permite procesar documentos enteros sin fragmentarlos.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+**Escritura con tono específico**: si das ejemplos de cómo quieres que suene el texto ("escribe como si fuera un artículo de The Economist" o mejor aún "aquí tienes tres párrafos míos, escribe en ese estilo"), el resultado es mucho más cercano a lo que necesitas que con instrucciones abstractas.
 
-## Más sobre este tema
+**Razonamiento sobre código**: no solo genera código. Explica por qué algo falla, sugiere refactors, analiza vulnerabilidades de seguridad, traduce entre lenguajes. Para debugging, describir el síntoma y pegar el stack trace produce explicaciones útiles en segundos.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Brainstorming estructurado**: "Dame 10 ángulos distintos para este tema, sin repetir el enfoque obvio" produce resultados diferentes que "dame ideas". La especificidad del formato mejora mucho la calidad.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+## Cómo escribir prompts que funcionan
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+**Contexto antes que instrucción**. En lugar de "resume este texto", escribe "Soy periodista, necesito un resumen de 3 bullets para un artículo de divulgación. El texto original es técnico y la audiencia no tiene formación previa en el tema. Resume esto:" El contexto le da al modelo información sobre qué valorar.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+**Muestra en lugar de describir**. "Escribe en un tono conversacional pero preciso" es vago. "Escribe como el párrafo que te voy a poner a continuación" es específico. Los ejemplos son instrucciones.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+**Pide formato explícito**. "Dame la respuesta en formato tabla con columnas X, Y, Z" o "estructura esto como lista con viñetas, máximo 5 puntos" reduce el trabajo de reformatear después.
 
-## Conclusión
+**Itera en lugar de reescribir desde cero**. Si el resultado no es lo que querías, di qué específicamente no funciona: "está bien pero demasiado formal, más directo" o "el segundo párrafo no está relacionado con lo que pregunté". El modelo recuerda el contexto de la conversación.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Lo que no hace bien (y hay que saber)
+
+**No sabe lo que pasó después de su fecha de corte** (agosto 2025 para los modelos actuales). Para noticias recientes o precios actuales, no es confiable sin acceso a búsqueda en tiempo real.
+
+**Puede estar equivocado con mucha confianza**. En temas técnicos muy específicos (jurisprudencia concreta, datos estadísticos de nichos), puede generar respuestas plausibles pero incorrectas. Verifica siempre lo que importa.
+
+**No recuerda conversaciones pasadas** por defecto. Cada sesión empieza desde cero a menos que copies el contexto relevante.
+
+## El flujo de trabajo que más rinde
+
+Para tareas complejas: divide en pasos. Primero pide el esquema ("¿cómo estructurarías un análisis de X?"), aprueba o modifica, luego pide el contenido sección por sección. Intentar hacerlo todo en un prompt produce resultados más genéricos.
+
+Para revisión de tu propio texto: pide primero que identifique los problemas antes de reescribir. "Analiza qué no funciona en este párrafo antes de proponerte arreglarlo" evita que reescriba algo que no querías cambiar.

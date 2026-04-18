@@ -23,30 +23,57 @@ featured: false
 breaking: false
 ---
 
-Seguro de viaje: qué cubre realmente y qué no (con ejemplos reales)
+## Por qué el seguro que compraste probablemente no te cubre lo que crees
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+La mayoría de personas compra seguros de viaje basándose en el precio, no en las coberturas. Y muchos descubren exactamente qué cubrían (o no) cuando intentan reclamar.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+La clave está en leer las exclusiones antes de comprar, no el resumen de coberturas.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+## La Tarjeta Sanitaria Europea: lo que sí cubre (y lo que no)
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+Si viajas dentro de la UE, tienes derecho a atención sanitaria en las mismas condiciones que los residentes del país que visitas. Esto es gratuito y no requiere seguro adicional.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+Lo que no cubre la TSE:
 
-## Más sobre este tema
+- Evacuación médica o repatriación (coste: 10.000-50.000€ desde destinos lejanos).
+- Asistencia en viaje (vuelo perdido, equipaje, cancelación).
+- Turismo fuera de la UE (EEUU, Asia, América Latina).
+- Tratamientos en clínicas privadas si el país tiene sistema público.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Para viajes dentro de Europa, la TSE reduce significativamente lo que necesitas de un seguro adicional. Para viajes fuera de Europa, es imprescindible un seguro privado.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+## Las exclusiones que más sorprenden
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+**Preexistencias**: casi todos los seguros excluyen condiciones médicas previas, aunque varían en cómo lo definen. Si tienes diabetes, hipertensión o cualquier condición crónica, lee específicamente esta sección. Algunos seguros la cubren con un sobreprecio; muchos la excluyen completamente.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi.
+**Deportes de riesgo**: senderismo con altitud elevada, buceo, esquí fuera de pista, escalada, moto. Las actividades que la mayoría considera "aventura normal" requieren cobertura específica que no viene por defecto.
 
-Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis rerum necessitatibus saepe eveniet.
+**Alcohol y drogas**: la mayoría de pólizas excluyen accidentes en estado de embriaguez. Esto aparece en letra pequeña y es una exclusión que se aplica con regularidad.
 
-## Conclusión
+**Cancelación por cambio de planes**: "cancelación de viaje" no significa que te devuelvan el dinero si cambias de idea. Cubre causas tasadas: enfermedad grave documentada, fallecimiento de familiar directo, desastre natural en destino. Cambiar de trabajo o tener un problema personal normalmente no cuenta.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**El 30% de franquicia que no ves**: algunos seguros baratos tienen franquicia en gastos médicos. Pagas los primeros 50€ o 100€ de cada siniestro tú mismo.
+
+## Para EEUU: un caso especial
+
+El sistema sanitario estadounidense es el más caro del mundo. Una noche de hospitalización puede costar 10.000-30.000€. Una evacuación médica, 100.000€.
+
+Para viajes a EEUU, Canadá, o cualquier país sin cobertura pública accesible a turistas, el seguro de asistencia médica no es opcional aunque estés en buena salud. El riesgo de no tenerlo es financieramente catastrófico.
+
+Busca coberturas médicas de al menos 150.000€ para EEUU. Los seguros baratos de 15€ para un viaje de dos semanas a Nueva York casi nunca llegan a eso.
+
+## Coberturas que importan según el destino
+
+**Europa**: TSE + seguro de cancelación y equipaje básico (20-40€). Médicamente estás cubierto.
+
+**Países fuera de la UE con sistema público funcionando (Japón, Canadá)**: seguro estándar con cobertura médica de 50-100k€ (30-60€).
+
+**EEUU, países sin sistema público universal**: cobertura médica mínima de 150.000€, mejor 300.000€. No escatimes aquí.
+
+**Viaje de aventura o deportes**: seguro específico para la actividad. Los seguros de esquí, buceo o trekking de altitud son categorías separadas.
+
+## El seguro de la tarjeta de crédito: cuándo vale
+
+Muchas tarjetas de crédito incluyen seguro de viaje si pagas el viaje con esa tarjeta. Las coberturas varían mucho: algunas tarjetas premium cubren hasta 500.000€ de asistencia médica; otras solo cubren equipaje y cancelación.
+
+Lee las condiciones de tu tarjeta antes de asumir que estás cubierto. Y ten el número de asistencia guardado en el teléfono: de nada sirve una cobertura que no sabes cómo activar.
