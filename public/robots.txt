@@ -1,0 +1,5 @@
+# Served dynamically from /src/routes/robots.txt/index.ts
+# This static file is a fallback only
+User-agent: *
+Allow: /
+Sitemap: https://crush.news/sitemap.xml

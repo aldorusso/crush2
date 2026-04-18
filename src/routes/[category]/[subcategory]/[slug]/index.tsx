@@ -9,6 +9,8 @@ import {
 import { Breadcrumbs } from "~/components/Breadcrumbs";
 import { AuthorBox } from "~/components/AuthorBox";
 import { RelatedArticles } from "~/components/RelatedArticles";
+import { buildArticleSchema, buildBreadcrumbSchema, schemaToScript } from "~/lib/jsonld";
+import { buildOgArticle, buildTwitterCard, buildHreflang, buildRobotsMeta } from "~/lib/seo";
 
 export const useArticleData = routeLoader$(({ params, status }) => {
   const article = getArticleByPath(
@@ -154,19 +156,42 @@ export default component$(() => {
 export const head: DocumentHead = ({ resolveValue }) => {
   const data = resolveValue(useArticleData);
   if (!data) return { title: "Artículo no encontrado — crush.news" };
-  const { article } = data;
+  const { article, author, category, subcategory } = data;
+  const path = `/${article.category}/${article.subcategory}/${article.slug}/`;
+
+  const articleSchema = buildArticleSchema(article, author ?? undefined);
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { label: "Inicio", href: "/" },
+    { label: category?.name ?? article.category, href: `/${article.category}/` },
+    {
+      label: subcategory?.name ?? article.subcategory,
+      href: `/${article.category}/${article.subcategory}/`,
+    },
+    { label: article.title },
+  ]);
+
   return {
     title: `${article.title} — crush.news`,
     meta: [
       { name: "description", content: article.description },
-      { property: "og:type", content: "article" },
-      { property: "og:title", content: article.title },
-      { property: "og:description", content: article.description },
-      { property: "og:image", content: article.heroImage.src },
-      {
-        name: "robots",
-        content: "max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-      },
+      ...buildRobotsMeta(),
+      ...buildOgArticle({
+        title: article.title,
+        description: article.description,
+        image: article.heroImage.src,
+        publishedAt: article.publishedAt,
+        updatedAt: article.updatedAt,
+        author: author?.name ?? article.author,
+        section: article.category,
+        tags: article.tags,
+      }),
+      ...buildTwitterCard({
+        title: article.title,
+        description: article.description,
+        image: article.heroImage.src,
+      }),
     ],
+    links: buildHreflang(path),
+    scripts: [schemaToScript(articleSchema), schemaToScript(breadcrumbSchema)],
   };
 };
