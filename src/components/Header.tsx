@@ -118,7 +118,8 @@ export const Header = component$(() => {
         <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
           <Link
             href="/"
-            class="font-display font-800 text-2xl leading-none tracking-tight"
+            class="font-display text-2xl leading-none tracking-tight"
+            style="font-weight: 900"
             aria-label="crush.news — inicio"
             onClick$={closeMenu}
           >
@@ -255,7 +256,12 @@ export const Header = component$(() => {
       >
         {/* Drawer header */}
         <div class="flex items-center justify-between border-b border-[var(--border)] px-5 py-4">
-          <Link href="/" class="font-display font-800 text-xl leading-none" onClick$={closeMenu}>
+          <Link
+            href="/"
+            class="font-display text-xl leading-none"
+            style="font-weight: 900"
+            onClick$={closeMenu}
+          >
             <span class="text-[var(--color-brand)]">crush</span>
             <span class="text-[var(--text)]">.news</span>
           </Link>
