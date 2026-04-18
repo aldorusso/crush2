@@ -6,18 +6,62 @@ export type ArticleSegment =
 
 export interface SlotConfig {
   minHeight: number;
-  label: string;
+  adSlot: string;
+  adFormat: string;
+  adLayout?: string;
+  adLayoutKey?: string;
+  fullWidthResponsive?: boolean;
 }
 
 export const SLOT_CONFIG: Record<string, SlotConfig> = {
-  "anchor-bottom": { minHeight: 100, label: "Anuncio — 320×100" },
-  "header-leaderboard": { minHeight: 90, label: "Anuncio — 728×90" },
-  "in-article-1": { minHeight: 280, label: "Anuncio — 336×280" },
-  "in-article-2": { minHeight: 280, label: "Anuncio — 336×280" },
-  "in-article-3": { minHeight: 280, label: "Anuncio — 336×280" },
-  "sidebar-sticky": { minHeight: 600, label: "Anuncio — 300×600" },
-  "multiplex-related": { minHeight: 280, label: "Anuncio — responsive" },
-  footer: { minHeight: 90, label: "Anuncio — 970×90" },
+  "anchor-bottom": {
+    minHeight: 100,
+    adSlot: "3778440909",
+    adFormat: "auto",
+    fullWidthResponsive: true,
+  },
+  "header-leaderboard": {
+    minHeight: 90,
+    adSlot: "8120655375",
+    adFormat: "auto",
+    fullWidthResponsive: true,
+  },
+  "in-article-1": {
+    minHeight: 280,
+    adSlot: "4203082356",
+    adFormat: "fluid",
+    adLayout: "in-article",
+  },
+  "in-article-2": {
+    minHeight: 280,
+    adSlot: "6561636473",
+    adFormat: "fluid",
+    adLayout: "in-article",
+  },
+  "in-article-3": {
+    minHeight: 280,
+    adSlot: "3097165888",
+    adFormat: "fluid",
+    adLayoutKey: "-dv+9k-2z-l9+1dp",
+  },
+  "sidebar-sticky": {
+    minHeight: 600,
+    adSlot: "8935043599",
+    adFormat: "auto",
+    fullWidthResponsive: true,
+  },
+  "multiplex-related": {
+    minHeight: 280,
+    adSlot: "3874288601",
+    adFormat: "fluid",
+    adLayoutKey: "-i5+h-1y-7h+l5",
+  },
+  footer: {
+    minHeight: 90,
+    adSlot: "3097165888",
+    adFormat: "fluid",
+    adLayoutKey: "-dv+9k-2z-l9+1dp",
+  },
 };
 
 const AD_AFTER_PARAGRAPH = [2, 5, 8] as const;
