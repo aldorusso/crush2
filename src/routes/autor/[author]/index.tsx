@@ -21,7 +21,7 @@ export default component$(() => {
     return (
       <div class="mx-auto max-w-3xl px-4 py-16 text-center">
         <h1 class="font-display font-800 text-4xl">Autor no encontrado</h1>
-        <a href="/" class="mt-4 inline-block text-[var(--color-brand)] hover:underline">
+        <a href="/" class="mt-4 inline-block text-[var(--color-brand-text)] hover:underline">
           ← Inicio
         </a>
       </div>
@@ -53,7 +53,7 @@ export default component$(() => {
           />
           <div>
             <h1 class="font-display font-800 text-3xl">{author.name}</h1>
-            <p class="mt-1 font-medium text-[var(--color-brand)]">{author.role}</p>
+            <p class="mt-1 font-medium text-[var(--color-brand-text)]">{author.role}</p>
             <p class="mt-3 text-[var(--text-muted)]">{author.bio}</p>
             {author.expertise.length > 0 && (
               <div class="mt-4 flex flex-wrap gap-2">

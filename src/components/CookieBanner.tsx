@@ -15,7 +15,7 @@ export const CookieBanner = component$<Props>(({ hasConsent }) => {
         Usamos cookies para mejorar tu experiencia y mostrar publicidad personalizada. Puedes
         aceptar o rechazar su uso.{" "}
         <a href="/legal/cookies/" class="cookie-banner-link">
-          Más información
+          Más información sobre nuestra política de cookies
         </a>
       </p>
       <div class="cookie-banner-actions">

@@ -54,7 +54,7 @@ export default component$(() => {
     return (
       <div class="mx-auto max-w-3xl px-4 py-16 text-center">
         <h1 class="font-display font-800 text-4xl">Artículo no encontrado</h1>
-        <a href="/" class="mt-4 inline-block text-[var(--color-brand)] hover:underline">
+        <a href="/" class="mt-4 inline-block text-[var(--color-brand-text)] hover:underline">
           ← Volver al inicio
         </a>
       </div>
@@ -96,7 +96,7 @@ export default component$(() => {
         <header class="mb-8">
           <a
             href={`/${article.category}/${article.subcategory}/`}
-            class="text-xs font-semibold tracking-wide text-[var(--color-brand)] uppercase hover:underline"
+            class="text-xs font-semibold tracking-wide text-[var(--color-brand-text)] uppercase hover:underline"
           >
             {subcategory?.name ?? article.subcategory}
           </a>
@@ -119,7 +119,7 @@ export default component$(() => {
                 />
                 <a
                   href={`/autor/${author.slug}/`}
-                  class="text-sm font-medium transition-colors hover:text-[var(--color-brand)]"
+                  class="text-sm font-medium transition-colors hover:text-[var(--color-brand-text)]"
                 >
                   {author.name}
                 </a>

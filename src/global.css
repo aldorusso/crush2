@@ -19,12 +19,15 @@
 
   --color-brand: #e63329;
   --color-brand-dark: #c02620;
+  /* Darker brand reserved for text on light surfaces so we clear WCAG AA
+     (≥4.5:1 at body size). #b31c16 on #ffffff is ~7:1. */
+  --color-brand-text-light: #b31c16;
 
   --color-surface: #ffffff;
   --color-surface-2: #f7f7f7;
   --color-surface-3: #efefef;
   --color-text: #111111;
-  --color-text-muted: #6b7280;
+  --color-text-muted: #565b66;
   --color-border: #e5e7eb;
 
   --color-surface-dark: #0f0f0f;
@@ -42,6 +45,9 @@
   --text: var(--color-text);
   --text-muted: var(--color-text-muted);
   --border: var(--color-border);
+  /* Link/text colour that adapts per theme. Light uses the darker red;
+     dark uses the vivid red which already sits above 5:1 on #0f0f0f. */
+  --color-brand-text: var(--color-brand-text-light);
 }
 
 .dark {
@@ -51,6 +57,7 @@
   --text: var(--color-text-dark);
   --text-muted: var(--color-text-muted-dark);
   --border: var(--color-border-dark);
+  --color-brand-text: var(--color-brand);
 }
 
 * {
@@ -130,7 +137,7 @@ img {
 }
 
 .prose a {
-  color: var(--color-brand);
+  color: var(--color-brand-text);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -140,7 +147,7 @@ img {
 }
 
 .internal-link {
-  color: var(--color-brand);
+  color: var(--color-brand-text);
   text-decoration: underline;
   text-decoration-style: dotted;
   text-underline-offset: 3px;
@@ -159,7 +166,7 @@ img {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--color-brand);
+  color: var(--color-brand-text);
   white-space: nowrap;
   padding-left: 10px;
   border-left: 3px solid var(--color-brand);
@@ -307,7 +314,7 @@ img {
 }
 
 .cookie-banner-link {
-  color: var(--color-brand);
+  color: var(--color-brand-text);
   text-decoration: underline;
   text-underline-offset: 2px;
 }

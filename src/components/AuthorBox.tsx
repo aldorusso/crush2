@@ -23,7 +23,7 @@ export const AuthorBox = component$<Props>(({ author, compact }) => {
         <div>
           <Link
             href={`/autor/${author.slug}/`}
-            class="text-sm font-semibold transition-colors hover:text-[var(--color-brand)]"
+            class="text-sm font-semibold transition-colors hover:text-[var(--color-brand-text)]"
           >
             {author.name}
           </Link>
@@ -48,7 +48,7 @@ export const AuthorBox = component$<Props>(({ author, compact }) => {
         <div>
           <Link
             href={`/autor/${author.slug}/`}
-            class="font-display font-700 text-lg transition-colors hover:text-[var(--color-brand)]"
+            class="font-display font-700 text-lg transition-colors hover:text-[var(--color-brand-text)]"
           >
             {author.name}
           </Link>
@@ -61,7 +61,7 @@ export const AuthorBox = component$<Props>(({ author, compact }) => {
           )}
           <Link
             href={`/autor/${author.slug}/`}
-            class="mt-2 inline-block text-sm font-medium text-[var(--color-brand)] hover:underline"
+            class="mt-2 inline-block text-sm font-medium text-[var(--color-brand-text)] hover:underline"
           >
             Ver perfil completo →
           </Link>

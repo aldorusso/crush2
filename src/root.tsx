@@ -24,6 +24,9 @@ export default component$(() => {
           href="https://pagead2.googlesyndication.com"
           crossOrigin="anonymous"
         />
+        {/* Picsum is where hero images live during the mock-content phase;
+            preconnecting shaves TLS + DNS off the LCP image fetch. */}
+        <link rel="preconnect" href="https://picsum.photos" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         {/* AdSense Auto Ads — loaded async, after Consent Mode defaults above */}
         <script

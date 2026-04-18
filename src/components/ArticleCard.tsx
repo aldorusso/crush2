@@ -79,7 +79,7 @@ export const ArticleCard = component$<Props>(
             <h3 class="font-display font-600 mt-1 text-sm leading-snug">
               <Link
                 href={href}
-                class="line-clamp-2 transition-colors hover:text-[var(--color-brand)]"
+                class="line-clamp-2 transition-colors hover:text-[var(--color-brand-text)]"
               >
                 {article.title}
               </Link>
@@ -109,7 +109,7 @@ export const ArticleCard = component$<Props>(
           <h3 class="font-display font-700 mt-1.5 text-base leading-snug">
             <Link
               href={href}
-              class="line-clamp-2 transition-colors hover:text-[var(--color-brand)]"
+              class="line-clamp-2 transition-colors hover:text-[var(--color-brand-text)]"
             >
               {article.title}
             </Link>
@@ -137,7 +137,7 @@ const CategoryBadge = component$<{
       "inline-block text-xs font-semibold tracking-wide uppercase transition-colors",
       light
         ? "rounded-sm bg-[var(--color-brand)] px-2 py-0.5 text-white hover:bg-[var(--color-brand-dark)]"
-        : "text-[var(--color-brand)] hover:underline",
+        : "text-[var(--color-brand-text)] hover:underline",
     ].join(" ")}
   >
     {subcategory.replace(/-/g, " ")}

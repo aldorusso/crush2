@@ -38,6 +38,8 @@ app.use((req, res, next) => {
         "https://googleads.g.doubleclick.net",
         "https://adservice.google.com",
         "https://fundingchoicesmessages.google.com",
+        "https://ep1.adtrafficquality.google",
+        "https://ep2.adtrafficquality.google",
       ].join(" "),
       "style-src 'self' 'unsafe-inline' https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://fonts.googleapis.com",
       "img-src * data: blob:",
@@ -68,6 +70,15 @@ app.use((req, res, next) => {
 app.use(
   "/build",
   express.static(join(DIST, "build"), {
+    immutable: true,
+    maxAge: "1y",
+  }),
+);
+// Vite-bundled assets (CSS + fonts) also ship with content hashes in the
+// filename, so they are safe to cache as immutable.
+app.use(
+  "/assets",
+  express.static(join(DIST, "assets"), {
     immutable: true,
     maxAge: "1y",
   }),

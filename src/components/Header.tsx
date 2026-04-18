@@ -163,7 +163,7 @@ export const Header = component$(() => {
                         <li key={sub.href}>
                           <Link
                             href={sub.href}
-                            class="block px-4 py-2 text-sm whitespace-nowrap text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--color-brand)]"
+                            class="block px-4 py-2 text-sm whitespace-nowrap text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--color-brand-text)]"
                           >
                             {sub.label}
                           </Link>
@@ -296,7 +296,7 @@ export const Header = component$(() => {
                       class={[
                         "flex-1 rounded-lg px-4 py-3 text-sm font-semibold transition-colors",
                         active
-                          ? "text-[var(--color-brand)]"
+                          ? "text-[var(--color-brand-text)]"
                           : "text-[var(--text)] hover:bg-[var(--surface-2)]",
                       ].join(" ")}
                       onClick$={closeMenu}
@@ -340,7 +340,7 @@ export const Header = component$(() => {
                         <li key={sub.href}>
                           <Link
                             href={sub.href}
-                            class="block rounded-lg px-3 py-2.5 text-sm text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--color-brand)]"
+                            class="block rounded-lg px-3 py-2.5 text-sm text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-2)] hover:text-[var(--color-brand-text)]"
                             onClick$={closeMenu}
                           >
                             {sub.label}

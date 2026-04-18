@@ -74,7 +74,7 @@ export default component$(() => {
               <div class="h-px flex-1 bg-[var(--border)]" aria-hidden="true" />
               <a
                 href={`/${slug}/`}
-                class="shrink-0 text-[11px] font-semibold tracking-[0.1em] text-[var(--text-muted)] uppercase transition-colors hover:text-[var(--color-brand)]"
+                class="shrink-0 text-[11px] font-semibold tracking-[0.1em] text-[var(--text-muted)] uppercase transition-colors hover:text-[var(--color-brand-text)]"
               >
                 Ver todo →
               </a>

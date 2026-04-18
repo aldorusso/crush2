@@ -21,7 +21,7 @@ const LEGAL = [
 
 const PILL =
   "rounded-full px-4 py-1.5 text-xs font-semibold tracking-[0.1em] uppercase transition-colors hover:text-white";
-const PILL_STYLE = "border: 1px solid rgba(255,255,255,0.25); color: rgba(255,255,255,0.65)";
+const PILL_STYLE = "border: 1px solid rgba(255,255,255,0.35); color: rgba(255,255,255,0.85)";
 
 export const Footer = component$(() => {
   const year = new Date().getFullYear();
@@ -50,7 +50,7 @@ export const Footer = component$(() => {
                 <br />
                 en español.
               </p>
-              <p class="mt-3 text-sm leading-relaxed" style="color: rgba(255,255,255,0.4)">
+              <p class="mt-3 text-sm leading-relaxed" style="color: rgba(255,255,255,0.7)">
                 Tecnología, ciencia, cultura,
                 <br />
                 viajes y estilo de vida.
@@ -76,7 +76,7 @@ export const Footer = component$(() => {
                   key={l.href}
                   href={l.href}
                   class="text-sm transition-colors hover:text-white"
-                  style="color: rgba(255,255,255,0.45)"
+                  style="color: rgba(255,255,255,0.75)"
                 >
                   {l.label}
                 </Link>
@@ -91,14 +91,14 @@ export const Footer = component$(() => {
               style="font-size: clamp(3.5rem, 13vw, 12rem); font-weight: 900; -webkit-text-stroke: 0.5px currentColor"
             >
               <span style="color: var(--color-brand)">crush</span>
-              <span style="color: rgba(255,255,255,0.9)">.news</span>
+              <span style="color: rgba(255,255,255,0.95)">.news</span>
             </div>
           </div>
 
           {/* ── Bottom strip ─────────────────────────────────────────────── */}
           <div
             class="mt-5 flex flex-wrap items-center justify-between gap-2 border-t pt-5 text-xs"
-            style="border-color: rgba(255,255,255,0.1); color: rgba(255,255,255,0.3)"
+            style="border-color: rgba(255,255,255,0.15); color: rgba(255,255,255,0.6)"
           >
             <span>© {year} crush.news — Todos los derechos reservados</span>
             <a href="/sitemap.xml" class="transition-colors hover:text-white">
