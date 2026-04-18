@@ -11,6 +11,12 @@ importers:
       express:
         specifier: ^5.2.1
         version: 5.2.1
+      gray-matter:
+        specifier: ^4.0.3
+        version: 4.0.3
+      marked:
+        specifier: ^18.0.2
+        version: 18.0.2
       undici:
         specifier: ^5
         version: 5.29.0
@@ -60,18 +66,12 @@ importers:
       globals:
         specifier: 16.4.0
         version: 16.4.0
-      gray-matter:
-        specifier: ^4.0.3
-        version: 4.0.3
       husky:
         specifier: ^9.1.7
         version: 9.1.7
       lint-staged:
         specifier: ^16.4.0
         version: 16.4.0
-      marked:
-        specifier: ^18.0.2
-        version: 18.0.2
       prettier:
         specifier: 3.6.2
         version: 3.6.2
