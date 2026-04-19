@@ -163,7 +163,7 @@ export default component$(() => {
           )}
         </figure>
 
-        <div class="ad-slot my-8">
+        <div class="ad-wrapper my-8">
           <AdSlot slotId="header-leaderboard" />
         </div>
 

@@ -335,6 +335,19 @@ img {
   margin: 2rem 0;
 }
 
+/* When AdSense reports the slot as unfilled, collapse both the slot and
+   the wrappers we drop it into. Uses :has() (Chromium ≥105, Firefox ≥121,
+   Safari ≥15.4). Anything older just keeps the reserved box. */
+.ad-slot.ad-slot-empty {
+  display: none;
+}
+
+.ad-slot-in-article:has(> .ad-slot-empty),
+.ad-anchor:has(> .ad-slot-empty),
+.ad-wrapper:has(.ad-slot-empty) {
+  display: none;
+}
+
 .ad-slot-inner {
   display: flex;
   align-items: center;

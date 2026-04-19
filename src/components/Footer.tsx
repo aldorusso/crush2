@@ -29,7 +29,7 @@ export const Footer = component$(() => {
   return (
     <footer class="mt-16">
       {/* Ad slot — light surface, above the dark section */}
-      <div class="border-t border-b border-[var(--border)] bg-[var(--surface-2)] py-3">
+      <div class="ad-wrapper border-t border-b border-[var(--border)] bg-[var(--surface-2)] py-3">
         <div class="mx-auto max-w-7xl px-4">
           <AdSlot slotId="footer" lazy />
         </div>

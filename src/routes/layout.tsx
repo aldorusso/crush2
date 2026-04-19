@@ -76,7 +76,7 @@ export default component$(() => {
           full size; once the user scrolls past it we flip to compact. */}
       <div id="masthead-sentinel" aria-hidden="true" />
       {/* Header leaderboard — desktop only, non-lazy (above fold) */}
-      <div class="mx-auto hidden max-w-7xl px-4 py-2 md:block">
+      <div class="ad-wrapper mx-auto hidden max-w-7xl px-4 py-2 md:block">
         <AdSlot slotId="header-leaderboard" lazy={false} />
       </div>
       <main id="main-content" tabIndex={-1}>

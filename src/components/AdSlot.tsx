@@ -12,12 +12,13 @@ interface Props {
 export const AdSlot = component$<Props>(({ slotId, lazy = true, class: extraClass }) => {
   const config = SLOT_CONFIG[slotId];
   const visible = useSignal(!lazy);
+  const filled = useSignal(true);
 
   // eslint-disable-next-line qwik/no-use-visible-task
   useVisibleTask$(({ cleanup }) => {
     visible.value = true;
     // Push after a microtask so the <ins> is in the DOM
-    const t = setTimeout(() => {
+    const pushTimer = setTimeout(() => {
       try {
         // @ts-expect-error adsbygoogle is injected globally
         (window.adsbygoogle = window.adsbygoogle || []).push({});
@@ -25,16 +26,40 @@ export const AdSlot = component$<Props>(({ slotId, lazy = true, class: extraClas
         /* AdSense not loaded yet */
       }
     }, 0);
-    cleanup(() => clearTimeout(t));
+
+    // Grace period for AdSense to fill the slot. If it comes back marked
+    // "unfilled" (or the <ins> ended up with zero rendered height because
+    // the script never ran or the request was blocked) collapse the slot
+    // so readers don't see an empty box. Matches CLAUDE.md §7.3.
+    const checkTimer = setTimeout(() => {
+      const ins = document.querySelector<HTMLElement>(`[data-slot-id="${slotId}"] ins.adsbygoogle`);
+      if (!ins) {
+        filled.value = false;
+        return;
+      }
+      const status = ins.getAttribute("data-ad-status");
+      if (status === "unfilled" || ins.clientHeight === 0) {
+        filled.value = false;
+      }
+    }, 3000);
+
+    cleanup(() => {
+      clearTimeout(pushTimer);
+      clearTimeout(checkTimer);
+    });
   });
 
   if (!config) return null;
 
+  const isEmpty = visible.value && !filled.value;
+
   return (
     <div
-      class={["ad-slot", extraClass].filter(Boolean).join(" ")}
-      style={`min-height:${config.minHeight}px`}
+      data-slot-id={slotId}
+      class={["ad-slot", isEmpty ? "ad-slot-empty" : "", extraClass].filter(Boolean).join(" ")}
+      style={`min-height:${isEmpty ? 0 : config.minHeight}px`}
       aria-label="Espacio publicitario"
+      aria-hidden={isEmpty ? "true" : undefined}
       role="complementary"
     >
       {visible.value && (
