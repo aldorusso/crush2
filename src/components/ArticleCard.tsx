@@ -60,7 +60,7 @@ export const ArticleCard = component$<Props>(
       return (
         <article class="group">
           <CategoryBadge category={article.category} subcategory={article.subcategory} />
-          <h3 class="font-display font-700 mt-1 text-[15px] leading-snug">
+          <h3 class="font-display font-700 mt-1 text-[17px] leading-snug sm:text-[16px]">
             <Link
               href={href}
               class="line-clamp-3 transition-colors hover:text-[var(--color-brand-text)]"
@@ -128,15 +128,15 @@ export const ArticleCard = component$<Props>(
         </Link>
         <div class="flex flex-1 flex-col pt-3">
           <CategoryBadge category={article.category} subcategory={article.subcategory} />
-          <h3 class="font-display font-700 mt-1.5 text-base leading-snug">
+          <h3 class="font-display font-700 mt-2 text-[18px] leading-snug tracking-tight sm:text-[19px]">
             <Link
               href={href}
-              class="line-clamp-2 transition-colors hover:text-[var(--color-brand-text)]"
+              class="line-clamp-3 transition-colors hover:text-[var(--color-brand-text)]"
             >
               {article.title}
             </Link>
           </h3>
-          <p class="mt-1.5 line-clamp-2 flex-1 text-sm text-[var(--text-muted)]">
+          <p class="mt-2 line-clamp-3 flex-1 text-sm leading-snug text-[var(--text-muted)]">
             {article.description}
           </p>
           <ArticleMeta article={article} />

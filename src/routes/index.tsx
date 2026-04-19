@@ -2,6 +2,7 @@ import { component$ } from "@builder.io/qwik";
 import { Link, routeLoader$, type DocumentHead } from "@builder.io/qwik-city";
 import { getContentIndex, getFeaturedArticles, getArticlesByCategory } from "~/lib/content";
 import { ArticleCard } from "~/components/ArticleCard";
+import { SectionDivider } from "~/components/SectionDivider";
 import type { Article } from "~/lib/types";
 
 export const useHomeData = routeLoader$(() => {
@@ -44,12 +45,7 @@ export default component$(() => {
         {/* ── Hero / Portada — three-pane layout ─────────────────────────── */}
         {hero && (
           <section aria-labelledby="featured-heading">
-            <div class="mb-4 flex items-center gap-4">
-              <h2 id="featured-heading" class="section-heading-label shrink-0">
-                Portada
-              </h2>
-              <div class="h-px flex-1 bg-[var(--border)]" aria-hidden="true" />
-            </div>
+            <SectionDivider label="Portada" id="featured-heading" first />
 
             <div class="grid gap-6 lg:grid-cols-[2fr_1.25fr_1.25fr]">
               {/* Pane 1 — featured */}
@@ -135,22 +131,29 @@ export default component$(() => {
         {/* ── Category sections ──────────────────────────────────────────── */}
         {Object.entries(byCategory).map(([slug, articles]) =>
           articles.length === 0 ? null : (
-            <section key={slug} aria-labelledby={`cat-${slug}`} class="mb-14">
-              {/* Editorial section heading with rule */}
-              <div class="mb-6 flex items-center gap-4">
-                <h2 id={`cat-${slug}`} class="section-heading-label shrink-0">
-                  {CAT_LABELS[slug] ?? slug}
-                </h2>
-                <div class="h-px flex-1 bg-[var(--border)]" aria-hidden="true" />
-                <a
-                  href={`/${slug}/`}
-                  class="shrink-0 text-[11px] font-semibold tracking-[0.1em] text-[var(--text-muted)] uppercase transition-colors hover:text-[var(--color-brand-text)]"
-                >
-                  Ver todo →
-                </a>
+            <section key={slug} aria-labelledby={`cat-${slug}`}>
+              <SectionDivider
+                label={CAT_LABELS[slug] ?? slug}
+                id={`cat-${slug}`}
+                seeAllHref={`/${slug}/`}
+              />
+
+              {/* Mobile: lead card (with image) + rest as text-only stacked.
+                  Desktop (sm+): uniform 4-card grid. */}
+              <div class="flex flex-col gap-5 sm:hidden">
+                {articles[0] && <ArticleCard article={articles[0]} variant="vertical" />}
+                {articles.length > 1 && (
+                  <ul class="divide-y divide-[var(--border)]">
+                    {articles.slice(1).map((a) => (
+                      <li key={a.slug} class="py-3 first:pt-0 last:pb-0">
+                        <ArticleCard article={a} variant="text-only" />
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
 
-              <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              <div class="hidden gap-6 sm:grid sm:grid-cols-2 lg:grid-cols-4">
                 {articles.map((a) => (
                   <ArticleCard key={a.slug} article={a} />
                 ))}
