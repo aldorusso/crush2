@@ -1,8 +1,10 @@
 @import "@fontsource-variable/nunito-sans/wght.css";
+@import "@fontsource-variable/source-serif-4/opsz.css";
 @import "tailwindcss";
 
-/* System fallback sized to match Nunito Sans metrics — prevents CLS on swap.
-   Values match Next.js's computed overrides for Nunito Sans → Arial. */
+/* System fallbacks sized to match the web fonts — prevents CLS on swap.
+   Nunito Sans values match Next.js's computed overrides → Arial.
+   Source Serif 4 values computed to Georgia. */
 @font-face {
   font-family: "Nunito Sans Fallback";
   src: local("Arial");
@@ -12,10 +14,23 @@
   line-gap-override: 0%;
 }
 
+@font-face {
+  font-family: "Source Serif 4 Fallback";
+  src: local("Georgia");
+  size-adjust: 96%;
+  ascent-override: 92%;
+  descent-override: 26%;
+  line-gap-override: 0%;
+}
+
 @theme {
   --font-sans: "Nunito Sans Variable", "Nunito Sans Fallback", ui-sans-serif, system-ui, sans-serif;
   --font-display:
     "Nunito Sans Variable", "Nunito Sans Fallback", ui-sans-serif, system-ui, sans-serif;
+  /* Serif reserved for long-form article body — echoes El País's
+     MajritTxRoman for comfortable reading on mobile. */
+  --font-serif:
+    "Source Serif 4 Variable", "Source Serif 4 Fallback", Georgia, "Times New Roman", serif;
 
   --color-brand: #e63329;
   --color-brand-dark: #c02620;
@@ -97,53 +112,91 @@ img {
   height: auto;
 }
 
+/* Article body — echoes elpais.com's reading rhythm: serif, 18-19px,
+   wider paragraph spacing. Heads stay sans via --font-display for
+   editorial contrast. */
 .prose {
   max-width: 72ch;
+  color: var(--text);
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  line-height: 1.6;
+  letter-spacing: -0.005rem;
+}
+
+@media (min-width: 640px) {
+  .prose {
+    font-size: 1.1875rem;
+  }
+}
+
+.prose p {
+  margin-bottom: 1.75rem;
+}
+
+.prose h2,
+.prose h3 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
   color: var(--text);
 }
 
 .prose h2 {
-  font-size: 1.5rem;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
+  font-size: 1.625rem;
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.2;
 }
 
 .prose h3 {
-  font-size: 1.25rem;
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
-}
-
-.prose p {
-  margin-bottom: 1.25rem;
+  font-size: 1.3125rem;
+  margin-top: 2.25rem;
+  margin-bottom: 0.875rem;
+  line-height: 1.25;
 }
 
 .prose ul,
 .prose ol {
   padding-left: 1.5rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.75rem;
 }
 
 .prose li {
-  margin-bottom: 0.375rem;
+  margin-bottom: 0.5rem;
 }
 
 .prose blockquote {
   border-left: 3px solid var(--color-brand);
   padding-left: 1rem;
   margin-left: 0;
+  margin-bottom: 1.75rem;
   color: var(--text-muted);
   font-style: italic;
 }
 
+/* Body links — journalistic blue. --color-link-body adapts per theme so
+   we clear WCAG AA on both light (#0b5e8c on white ≈ 6.3:1) and dark
+   (#6fb8e0 on #0f0f0f ≈ 8:1). */
+:root {
+  --color-link-body: #0b5e8c;
+}
+.dark {
+  --color-link-body: #6fb8e0;
+}
+
 .prose a {
-  color: var(--color-brand-text);
+  color: var(--color-link-body);
   text-decoration: underline;
   text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+.prose a:hover {
+  text-decoration-thickness: 2px;
 }
 
 .prose strong {
   font-weight: 600;
+  font-family: var(--font-sans);
 }
 
 .internal-link {
@@ -325,14 +378,35 @@ img {
 
 /* ── Ad slots ─────────────────────────────────────────────── */
 
+/* Ad slot — editorial treatment inspired by elpais.com: a small
+   "PUBLICIDAD" kicker above a neutral-gradient reservation box. */
 .ad-slot {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 0.5rem;
   width: 100%;
   overflow: hidden;
   transition: min-height 300ms ease;
-  margin: 2rem 0;
+  margin: 2.5rem 0;
+  background: linear-gradient(to bottom, var(--surface-2) 0%, var(--surface) 70%);
+  border-radius: 4px;
+  padding: 0.5rem 0;
+}
+
+.ad-slot-label {
+  font-size: 0.625rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  pointer-events: none;
+  user-select: none;
+}
+
+.ad-slot > ins.adsbygoogle {
+  width: 100%;
 }
 
 /* When AdSense reports the slot as unfilled, collapse both the slot and
@@ -346,27 +420,6 @@ img {
 .ad-anchor:has(> .ad-slot-empty),
 .ad-wrapper:has(.ad-slot-empty) {
   display: none;
-}
-
-.ad-slot-inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: inherit;
-  background-color: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 0.75rem;
-}
-
-.ad-slot-label {
-  font-size: 0.625rem;
-  color: var(--text-muted);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  pointer-events: none;
-  user-select: none;
 }
 
 /* In-article slots: full bleed on mobile, centered on desktop */

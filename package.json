@@ -45,6 +45,7 @@
     "@builder.io/qwik-city": "^1.19.2",
     "@eslint/js": "^9",
     "@fontsource-variable/nunito-sans": "^5.2.7",
+    "@fontsource-variable/source-serif-4": "^5.2.9",
     "@playwright/test": "^1.59.1",
     "@tailwindcss/vite": "^4.2.2",
     "@types/express": "^5.0.6",

@@ -63,16 +63,21 @@ export const AdSlot = component$<Props>(({ slotId, lazy = true, class: extraClas
       role="complementary"
     >
       {visible.value && (
-        <ins
-          class="adsbygoogle"
-          style="display:block;text-align:center"
-          data-ad-client={CLIENT_ID}
-          data-ad-slot={config.adSlot}
-          data-ad-format={config.adFormat}
-          {...(config.adLayout ? { "data-ad-layout": config.adLayout } : {})}
-          {...(config.adLayoutKey ? { "data-ad-layout-key": config.adLayoutKey } : {})}
-          {...(config.fullWidthResponsive ? { "data-full-width-responsive": "true" } : {})}
-        />
+        <>
+          <span class="ad-slot-label" aria-hidden="true">
+            Publicidad
+          </span>
+          <ins
+            class="adsbygoogle"
+            style="display:block;text-align:center"
+            data-ad-client={CLIENT_ID}
+            data-ad-slot={config.adSlot}
+            data-ad-format={config.adFormat}
+            {...(config.adLayout ? { "data-ad-layout": config.adLayout } : {})}
+            {...(config.adLayoutKey ? { "data-ad-layout-key": config.adLayoutKey } : {})}
+            {...(config.fullWidthResponsive ? { "data-full-width-responsive": "true" } : {})}
+          />
+        </>
       )}
     </div>
   );
